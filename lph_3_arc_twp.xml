@@ -1,0 +1,1142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<loin:LevelOfInformationNeed xmlns:loin="https://iso.org/2024/LOIN" xmlns:dt="https://standards.iso.org/iso/23387/ed-2/en/">
+    <Specification dt:GUID="8a891476-4a5c-4dcd-b38f-1878a93bd191" dateOfCreation="2026-05-11T13:53:10.799275">
+        <SpecificationPerObjectType dt:GUID="1800d4e6-b5b6-4c30-a9b8-a2cddb0fcf20" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcProject</dt:Name>
+            <ObjectType dt:GUID="1800d4e6-b5b6-4c30-a9b8-a2cddb0fcf20" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcProject</dt:Name>
+            </ObjectType>
+            <Documentation GUID="08181284-44ff-47d2-adf6-ed87b85e065f"/>
+            <GeometricalInformation GUID="3edbb8ed-d173-449e-9dd6-ce378ddd572f" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="ca4a11d4-582b-4066-93b4-741bf85956d3" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcBuildingElementProxy.PredefinedType.USERDEFINED[CoordinationObject]</dt:Name>
+            <ObjectType dt:GUID="ca4a11d4-582b-4066-93b4-741bf85956d3" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcBuildingElementProxy.PredefinedType.USERDEFINED[CoordinationObject]</dt:Name>
+            </ObjectType>
+            <Documentation GUID="4b970ca8-a0c8-412a-9d8e-b20a947eadac"/>
+            <GeometricalInformation GUID="dc7214ad-cd9d-4915-9d22-4287c9b6caa0" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="80fc4b3c-3b13-4fb8-85f4-40eb96e48e28" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for 0</dt:Name>
+            <ObjectType dt:GUID="80fc4b3c-3b13-4fb8-85f4-40eb96e48e28" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">0</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="4b7ecc22-d41d-49a1-8fef-ea93eb134917">
+                <Property dt:GUID="66344042-91df-49d8-b6e7-2bb93b2e13b0" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Status</dt:Name>
+                    <dt:Description language="en">Status des Elementes, das vorwiegend bei Renovierungs und Umbaumaßnahmen eines Gebäudes verwendet wird: Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden, als "Vorhanden" zugewiesen werden: Element existiert bereits und bleibt. </dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">Neu</dt:Value>
+                                <dt:Value order="2">Bestand</dt:Value>
+                                <dt:Value order="3">Abbruch</dt:Value>
+                                <dt:Value order="4">Temporär</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="66d2bc57-5e35-43a7-b6d9-1150b377667c" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">LoadBearing</dt:Name>
+                    <dt:Description language="en">Gibt an, ob das Objekt Lasten tragen soll (TRUE) oder nicht (FALSE).</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+                <Property dt:GUID="ad992fde-1a02-43c6-b2a5-ed53fff4c2c0" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">FireRating</dt:Name>
+                    <dt:Description language="en">Brandklassifizierung für das Element, die nach der nationalen Brandschutzklassifizierung vergeben wird.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">F 0 I F30</dt:Value>
+                                <dt:Value order="2">F60</dt:Value>
+                                <dt:Value order="3">F90</dt:Value>
+                                <dt:Value order="4">F120</dt:Value>
+                                <dt:Value order="5">F180 I undefiniert</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="6a877e19-f531-4d41-b3ce-d33a23de5698"/>
+            <GeometricalInformation GUID="007b93c5-2650-4d17-8ac9-7ced042010cd" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="65f99816-9a8d-4be0-b9da-8f38d99c67f1" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcSite</dt:Name>
+            <ObjectType dt:GUID="65f99816-9a8d-4be0-b9da-8f38d99c67f1" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcSite</dt:Name>
+            </ObjectType>
+            <Documentation GUID="e931f0a2-bfc7-4ebc-a7ab-9fd1d9cfee59"/>
+            <GeometricalInformation GUID="b0faa1e6-b467-47bd-bcbe-484fd9d5290b" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="b2202bea-6e4f-44a9-9d94-88890b02536c" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcBuilding</dt:Name>
+            <ObjectType dt:GUID="b2202bea-6e4f-44a9-9d94-88890b02536c" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcBuilding</dt:Name>
+            </ObjectType>
+            <Documentation GUID="77325106-f511-4471-9421-ac97725d7427"/>
+            <GeometricalInformation GUID="403aad29-3fc8-4c9f-9a6c-789072d32285" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="db6a0c71-e7e8-472c-b04f-b526696a30ce" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcBuildingStorey</dt:Name>
+            <ObjectType dt:GUID="db6a0c71-e7e8-472c-b04f-b526696a30ce" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcBuildingStorey</dt:Name>
+            </ObjectType>
+            <Documentation GUID="a0f8f9b0-9aec-4791-a47e-5e5744c8b758"/>
+            <GeometricalInformation GUID="5cc475d5-f9d8-43d8-b8bf-622e70672dc0" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="fe2cdd11-d2a2-41cb-836e-e44a4f029057" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcSpace</dt:Name>
+            <ObjectType dt:GUID="fe2cdd11-d2a2-41cb-836e-e44a4f029057" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcSpace</dt:Name>
+            </ObjectType>
+            <Documentation GUID="418dd273-4fe2-4aa1-8c47-80a3f289ec5c"/>
+            <GeometricalInformation GUID="fcbe286d-1ed2-4c52-90dc-628051895c0e" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="94c997a6-0fe6-4698-804b-a22b25510ea0" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcBuildingElementProxy.PredefinedType.USERDEFINED[ProvisionForSpace]</dt:Name>
+            <ObjectType dt:GUID="94c997a6-0fe6-4698-804b-a22b25510ea0" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcBuildingElementProxy.PredefinedType.USERDEFINED[ProvisionForSpace]</dt:Name>
+            </ObjectType>
+            <Documentation GUID="97eb0ead-a0ac-4a99-a575-6a81ad6b93a9"/>
+            <GeometricalInformation GUID="7ce6a5d5-8a6a-432d-b8c9-28b21eaa75e3" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="ca47b285-a096-4fa2-b458-572700b0e534" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcOpeningElement</dt:Name>
+            <ObjectType dt:GUID="ca47b285-a096-4fa2-b458-572700b0e534" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcOpeningElement</dt:Name>
+            </ObjectType>
+            <Documentation GUID="98f6e75d-040b-4c78-9292-33fdd996212b"/>
+            <GeometricalInformation GUID="ad21897c-2082-480e-a44b-15014f574650" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="ee0c2a8e-dcc2-4660-8b6e-e75ac590431d" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFooting.PredefinedType.USERDEFINED</dt:Name>
+            <ObjectType dt:GUID="ee0c2a8e-dcc2-4660-8b6e-e75ac590431d" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFooting.PredefinedType.USERDEFINED</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="98489a80-6f5a-4811-a619-bc0316e97390">
+                <Property dt:GUID="bd138f11-28c0-46ad-a975-1ebfa570fc4c" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">LoadBearing</dt:Name>
+                    <dt:Description language="en">Gibt an, ob das Objekt statisch tragend oder nicht tragend ist</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="b193bebc-1368-44fb-9907-15165f6ce1a4"/>
+            <GeometricalInformation GUID="a1af0da9-dc65-4dae-a8a0-664e7eaa7d05" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="dd690c27-22f6-4150-9794-e913ac1ff083" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcPile</dt:Name>
+            <ObjectType dt:GUID="dd690c27-22f6-4150-9794-e913ac1ff083" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcPile</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="33895b95-d68e-477b-8a04-83e9ebedf0f4">
+                <Property dt:GUID="ddc1e91c-5d07-43d3-a31e-5390772bf240" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Status</dt:Name>
+                    <dt:Description language="en">Status des Elementes, das vorwiegend bei Renovierungs und Umbaumaßnahmen eines Gebäudes verwendet wird:
+Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden, als "Vorhanden" zugewiesen werden: Element existiert bereits und bleibt. </dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">Neu</dt:Value>
+                                <dt:Value order="2">Bestand</dt:Value>
+                                <dt:Value order="3">Abbruch</dt:Value>
+                                <dt:Value order="4">Temporär</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="9b873ac2-4f6e-4e5c-834f-e26251a5698a" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">LoadBearing</dt:Name>
+                    <dt:Description language="en">Gibt an, ob das Objekt statisch tragend (TRUE) oder nicht tragend (FALSE) ist.</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="476edd5e-ec1a-46be-bd14-2df4256a65f4"/>
+            <GeometricalInformation GUID="e1ce99ec-225d-43a3-a529-7b7d9672e6f0" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="84cbfec7-aba7-460c-ac22-65cb55f9fb85" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcWall</dt:Name>
+            <ObjectType dt:GUID="84cbfec7-aba7-460c-ac22-65cb55f9fb85" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcWall</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="f60c178b-75d6-4238-af01-f77cce65eed9">
+                <Property dt:GUID="b90ff19e-7b56-4e5d-a7c7-d88df0fe9dc0" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">FireRating</dt:Name>
+                    <dt:Description language="en">Brandklassifizierung entsprechend der nationalen Brandschutzklassifizierung.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">F0 I F30</dt:Value>
+                                <dt:Value order="2">F60</dt:Value>
+                                <dt:Value order="3">F90</dt:Value>
+                                <dt:Value order="4">F120</dt:Value>
+                                <dt:Value order="5">F180 I undefiniert</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="8ff7bf78-9812-4c2e-a306-9d21d8772fa9" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Combustible</dt:Name>
+                    <dt:Description language="en">Angabe ob das Bauteil brennbares Material enthält oder nicht </dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+                <Property dt:GUID="25732b55-7e0e-4f06-9d9c-089802d92100" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">SurfaceSpreadOfFlame</dt:Name>
+                    <dt:Description language="en">Beschreibung des Brandverhaltens des Bauteils gemäß der nationalen oder regionalen Brandschutzverordnung</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">A1</dt:Value>
+                                <dt:Value order="2">A2</dt:Value>
+                                <dt:Value order="3">B</dt:Value>
+                                <dt:Value order="4">C</dt:Value>
+                                <dt:Value order="5">D</dt:Value>
+                                <dt:Value order="6">E</dt:Value>
+                                <dt:Value order="7">F</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="00159792-b2a9-4b15-9ebe-65f56514c340" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Compartmentation</dt:Name>
+                    <dt:Description language="en">Angabe, ob dieses Bauteil einen Brandabschnitt begrenzt, oder nicht </dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+                <Property dt:GUID="1ca39681-6e10-475a-bb28-ae5f0a54feb4" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">ThermalTransmittance</dt:Name>
+                    <dt:Description language="en">Wärmedurchgangskoeffizient (U-Wert) eines Materials. Der Gesamtwärmedurchgangskoeffizient durch die Wand (einschließlich aller Materialien).</dt:Description>
+                    <dt:DataType name="REAL"/>
+                </Property>
+                <Property dt:GUID="a540588e-f85d-4d65-8482-48a6e57907b7" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">ExtendToStructure</dt:Name>
+                    <dt:Description language="en">Angabe , ob diese Wand raumhoch ist , oder nicht</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="cb20ec80-2a99-42a9-86e0-66868ad72c7e"/>
+            <GeometricalInformation GUID="0f532420-e441-4445-b813-ad2fcb8b3037" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="d7bb1447-c156-4236-aa17-a7d958e51eb9" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcColumn</dt:Name>
+            <ObjectType dt:GUID="d7bb1447-c156-4236-aa17-a7d958e51eb9" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcColumn</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="f6556bbc-a77a-434f-b81b-c0f3b08b0831">
+                <Property dt:GUID="95ac7ae2-0cfd-458f-ae8d-6ac7e6c73f21" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">FireRating</dt:Name>
+                    <dt:Description language="en">Brandklassifizierung entsprechend der nationalen Brandschutzklassifizierung.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">F0 I F30</dt:Value>
+                                <dt:Value order="2">F60</dt:Value>
+                                <dt:Value order="3">F90</dt:Value>
+                                <dt:Value order="4">F120</dt:Value>
+                                <dt:Value order="5">F180 I undefiniert</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="ec1fb979-e303-4d2e-a505-1650abd6d2fd"/>
+            <GeometricalInformation GUID="058b7057-2794-4828-a411-6866a66be229" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="29be051e-2f38-4714-b1da-18ce137e13f3" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcCurtainWall</dt:Name>
+            <ObjectType dt:GUID="29be051e-2f38-4714-b1da-18ce137e13f3" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcCurtainWall</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="bc46baaa-3151-4a61-ad30-06a41f1c22c4">
+                <Property dt:GUID="3dd8deb1-127a-43f3-9a1c-45568cff72d1" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">FireRating</dt:Name>
+                    <dt:Description language="en">Brandklassifizierung entsprechend der nationalen Brandschutzklassifizierung.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">F0 I F30</dt:Value>
+                                <dt:Value order="2">F60</dt:Value>
+                                <dt:Value order="3">F90</dt:Value>
+                                <dt:Value order="4">F120</dt:Value>
+                                <dt:Value order="5">F180 I undefiniert</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="d49dde8e-d04b-4634-b7cb-6639b4e05121" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Combustible</dt:Name>
+                    <dt:Description language="en">Angabe ob das Bauteil brennbares Material enthält (WAHR) oder nicht (FALSCH).</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+                <Property dt:GUID="83072669-3e63-4761-bc9c-9139b45e76ae" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">SurfaceSpreadOfFlame</dt:Name>
+                    <dt:Description language="en">Beschreibung des Brandverhaltens des Bauteils gemäß der nationalen oder regionalen Brandschutzverordnung</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">A1</dt:Value>
+                                <dt:Value order="2">A2</dt:Value>
+                                <dt:Value order="3">B</dt:Value>
+                                <dt:Value order="4">C</dt:Value>
+                                <dt:Value order="5">D</dt:Value>
+                                <dt:Value order="6">E</dt:Value>
+                                <dt:Value order="7">F</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="d85d95e7-b7e0-4dc4-8180-b2f8f20f70d8" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">ThermalTransmittance</dt:Name>
+                    <dt:Description language="en">Wärmedurchgangskoeffizient (U-Wert) eines Materials. Der Gesamtwärmedurchgangskoeffizient durch die Wand (einschließlich aller Materialien).</dt:Description>
+                    <dt:DataType name="REAL"/>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="7737978b-4bb7-4ba2-a205-72603344b22a"/>
+            <GeometricalInformation GUID="ba73b2b7-47c5-4bf8-be3f-e703802adee4" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="04b00ced-52ea-44ce-9618-e065ede43712" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcBuildingElementProxy.PredefinedType.USERDEFINED[ShadingDevice]</dt:Name>
+            <ObjectType dt:GUID="04b00ced-52ea-44ce-9618-e065ede43712" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcBuildingElementProxy.PredefinedType.USERDEFINED[ShadingDevice]</dt:Name>
+            </ObjectType>
+            <Documentation GUID="f8a85416-84eb-48e9-b606-5614b3e2eae1"/>
+            <GeometricalInformation GUID="6c0b44e5-f72e-48a1-9d25-46827716a53c" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="d4bc8d77-64b6-46a7-a80c-c1aeaa4907d5" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcEnergyConversionDevice</dt:Name>
+            <ObjectType dt:GUID="d4bc8d77-64b6-46a7-a80c-c1aeaa4907d5" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcEnergyConversionDevice</dt:Name>
+            </ObjectType>
+            <Documentation GUID="97ebaffd-68b3-4e67-b34d-0e80d0967b33"/>
+            <GeometricalInformation GUID="d9eea9f7-740e-4b30-b5e3-ad5b49e3eb2d" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="e4919f67-c131-443d-8e9c-c1f82eb0bd56" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcDistributionControlElement</dt:Name>
+            <ObjectType dt:GUID="e4919f67-c131-443d-8e9c-c1f82eb0bd56" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcDistributionControlElement</dt:Name>
+            </ObjectType>
+            <Documentation GUID="f68a3e72-92f1-4586-90aa-85b8c8d2f069"/>
+            <GeometricalInformation GUID="14a03edb-3668-47de-904a-b9674a5f342e" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="ea7cce06-0bd0-45ef-bb74-eec80bb31ee9" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcWindow</dt:Name>
+            <ObjectType dt:GUID="ea7cce06-0bd0-45ef-bb74-eec80bb31ee9" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcWindow</dt:Name>
+            </ObjectType>
+            <Documentation GUID="24f7a4eb-ee12-4e1f-b532-7cc35e21b03d"/>
+            <GeometricalInformation GUID="3c7a9062-bd75-44b1-9d13-ff1c6842533f" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="a1618146-0538-4e4c-8898-00348a687856" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcRailing</dt:Name>
+            <ObjectType dt:GUID="a1618146-0538-4e4c-8898-00348a687856" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcRailing</dt:Name>
+            </ObjectType>
+            <Documentation GUID="a23059d7-d3ee-4e9e-8c3c-c9aedf694e42"/>
+            <GeometricalInformation GUID="fac49447-68da-406c-84b3-cb9c26cd48d1" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="09bcee1b-37ba-4de4-b502-802509a4a5fb" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcDoor</dt:Name>
+            <ObjectType dt:GUID="09bcee1b-37ba-4de4-b502-802509a4a5fb" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcDoor</dt:Name>
+            </ObjectType>
+            <Documentation GUID="91e49f2b-d6cb-44a0-aa6b-1d676cd2a544"/>
+            <GeometricalInformation GUID="b9f82ff9-b587-4964-9cad-e9d20332427a" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="f21d0601-7f1a-45e1-8b50-26d4f7954221" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcSlab</dt:Name>
+            <ObjectType dt:GUID="f21d0601-7f1a-45e1-8b50-26d4f7954221" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcSlab</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="121d7d30-b39a-4999-85fb-2b44e1017af7">
+                <Property dt:GUID="0af5061e-0056-4cf4-a6cf-081e3e1b76db" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">LoadBearing</dt:Name>
+                    <dt:Description language="en">Gibt an, ob das Objekt Lasten tragen soll (TRUE) oder nicht (FALSE).</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+                <Property dt:GUID="9e16df18-fd1e-48c7-ad16-b862e9d6c89e" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">FireRating</dt:Name>
+                    <dt:Description language="en">Brandschutzklasse für dieses Objekt, die nach der nationalen Brandschutzklassifizierung vergeben wird.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">F0 I F30</dt:Value>
+                                <dt:Value order="2">F60</dt:Value>
+                                <dt:Value order="3">F90</dt:Value>
+                                <dt:Value order="4">F120</dt:Value>
+                                <dt:Value order="5">F180 I undefiniert</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="a42b04e0-dbe8-44cc-9df2-2d09b1b65a6c" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Combustible</dt:Name>
+                    <dt:Description language="en">Angabe ob das Bauteil brennbares Material enthält (WAHR) oder nicht (FALSCH).</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+                <Property dt:GUID="da6f11bc-8d9c-426b-8a89-282f785db8d0" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">SurfaceSpreadOfFlame</dt:Name>
+                    <dt:Description language="en">Beschreibung des Brandverhaltens des Bauteils gemäß der nationalen oder regionalen Brandschutzverordnung.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">A1</dt:Value>
+                                <dt:Value order="2">A2</dt:Value>
+                                <dt:Value order="3">B</dt:Value>
+                                <dt:Value order="4">C</dt:Value>
+                                <dt:Value order="5">D</dt:Value>
+                                <dt:Value order="6">E</dt:Value>
+                                <dt:Value order="7">F</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="55682c00-56b7-41d4-a2d3-c0351da3a877" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Compartmentation</dt:Name>
+                    <dt:Description language="en">Angabe, ob dieses Bauteil einen Brandabschnitt begrenzt (WAHR), oder nicht (FALSCH).</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="0b610227-86a7-4a18-8d56-4bbd08deafe8"/>
+            <GeometricalInformation GUID="641ddfe8-c15c-486f-be99-e49848e05476" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="8a503eb7-3d53-4868-95e0-e5ba86563f07" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcStair</dt:Name>
+            <ObjectType dt:GUID="8a503eb7-3d53-4868-95e0-e5ba86563f07" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcStair</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="43f39b35-9343-4348-84f9-1e427c81be1f">
+                <Property dt:GUID="56b20587-dc59-40a2-8187-6f2d7722ef82" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">LoadBearing</dt:Name>
+                    <dt:Description language="en">Angabe, ob dieses Bauteil tragend ist (JA) oder nichttragend (NEIN)</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+                <Property dt:GUID="9195a5cf-8e34-4cbf-8d64-ecd9f7f4b50b" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">FireRating</dt:Name>
+                    <dt:Description language="en">Die Brandklassifizierung für dieses Objekt. It entspricht der nationalen Brandschutzklassifizierung.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">F0 I F30</dt:Value>
+                                <dt:Value order="2">F60</dt:Value>
+                                <dt:Value order="3">F90</dt:Value>
+                                <dt:Value order="4">F120</dt:Value>
+                                <dt:Value order="5">F180 I undefiniert</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="b62ee444-9ae6-4ea4-ba8f-3be4bef0a990" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">RequiredHeadroom</dt:Name>
+                    <dt:Description language="en">Erforderliche Durchgangshöhe für den Durchgang entsprechend der geltenden Bauvorschriften oder zusätzlichen Anforderungen.</dt:Description>
+                    <dt:DataType name="REAL"/>
+                    <dt:UnitRef dt:GUID="0a9f9fa2-142a-45ae-b9fe-2c7d834c97b3" dt:referenceURI="file:units_quantities_dimensions.xml"/>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="2c811f1c-fa8e-489a-b5dd-028360770ba5"/>
+            <GeometricalInformation GUID="86026fe6-93b1-4858-ab10-9a77e19f6493" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="8c0479d2-56ea-4db5-a68a-fdb619a2bc24" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcRamp</dt:Name>
+            <ObjectType dt:GUID="8c0479d2-56ea-4db5-a68a-fdb619a2bc24" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcRamp</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="4a9e1397-0e12-4709-92b7-cf870fa757ca">
+                <Property dt:GUID="120e42f1-29c1-4834-ac91-1d2f4e61004f" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">LoadBearing</dt:Name>
+                    <dt:Description language="en">Angabe, ob dieses Bauteil tragend ist (JA) oder nichttragend (NEIN)</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+                <Property dt:GUID="fcd212f8-497a-4b8e-a746-97a62261d78d" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">FireRating</dt:Name>
+                    <dt:Description language="en">Die Brandklassifizierung für dieses Objekt. It entspricht der nationalen Brandschutzklassifizierung.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">F0 I F30</dt:Value>
+                                <dt:Value order="2">F60</dt:Value>
+                                <dt:Value order="3">F90</dt:Value>
+                                <dt:Value order="4">F120</dt:Value>
+                                <dt:Value order="5">F180 I undefiniert</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="4636434c-0eb1-409a-aeaa-65869566627f" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">HasNonSkidSurface</dt:Name>
+                    <dt:Description language="en">Angabe, ob die Oberflächengüte so ausgelegt ist, dass sie rutschfest ist (TRUE) oder nicht (FALSE).</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="d42b7f2d-b0ac-4a6b-9d6c-c238399e05c0"/>
+            <GeometricalInformation GUID="31d5f94d-a102-4b3c-a380-cc998c888378" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="f4cc851f-a786-4f9f-a58c-aba732518637" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcCovering.PredefinedType.FLOORING</dt:Name>
+            <ObjectType dt:GUID="f4cc851f-a786-4f9f-a58c-aba732518637" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcCovering.PredefinedType.FLOORING</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="6e11098c-8246-414b-a9cf-eb669dfb71c3">
+                <Property dt:GUID="b6c107c3-8130-40a7-8480-2c2174ee0e0e" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Status</dt:Name>
+                    <dt:Description language="en">Status des Elementes, das vorwiegend bei Renovierungs und Umbaumaßnahmen eines Gebäudes verwendet wird: Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden, als "Vorhanden" zugewiesen werden: Element existiert bereits und bleibt. </dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">Neu</dt:Value>
+                                <dt:Value order="2">Bestand</dt:Value>
+                                <dt:Value order="3">Abbruch</dt:Value>
+                                <dt:Value order="4">Temporär</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="d561291f-4b34-4104-9f3d-ce0e4c093741" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">FireRating</dt:Name>
+                    <dt:Description language="en">Die Brandklassifizierung für dieses Objekt. It entspricht der nationalen Brandschutzklassifizierung.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">F0 I F30</dt:Value>
+                                <dt:Value order="2">F60</dt:Value>
+                                <dt:Value order="3">F90</dt:Value>
+                                <dt:Value order="4">F120</dt:Value>
+                                <dt:Value order="5">F180 I undefiniert</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="bdc20fe1-67a8-463a-9666-52a731e93833" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Combustible</dt:Name>
+                    <dt:Description language="en">Angabe ob das Bauteil brennbares Material enthält (WAHR) oder nicht (FALSCH).</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+                <Property dt:GUID="c0a157a8-36c0-4a0a-b31f-96a46f3c1404" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">SurfaceSpreadOfFlame</dt:Name>
+                    <dt:Description language="en">Beschreibung des Brandverhaltens des Bauteils gemäß der nationalen oder regionalen Brandschutzverordnung.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">A1</dt:Value>
+                                <dt:Value order="2">A2</dt:Value>
+                                <dt:Value order="3">B</dt:Value>
+                                <dt:Value order="4">C</dt:Value>
+                                <dt:Value order="5">D</dt:Value>
+                                <dt:Value order="6">E</dt:Value>
+                                <dt:Value order="7">F</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="3dce0396-5721-4e67-b299-ea1eb37ab033"/>
+            <GeometricalInformation GUID="659a0fe8-e919-4511-9b98-f0d41de63bb3" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="c319443a-f305-40c7-899b-4d306d887953" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcCovering.PredefinedType.CEILING</dt:Name>
+            <ObjectType dt:GUID="c319443a-f305-40c7-899b-4d306d887953" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcCovering.PredefinedType.CEILING</dt:Name>
+            </ObjectType>
+            <Documentation GUID="4ac3ad7a-ae49-4deb-b4f2-2e16f56703f0"/>
+            <GeometricalInformation GUID="8b2315a4-f7c0-4d21-80bb-18c8fc0be1e4" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="313b793c-d56a-4670-a57e-194853a9ca25" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcCovering.PredefinedType.CLADDING</dt:Name>
+            <ObjectType dt:GUID="313b793c-d56a-4670-a57e-194853a9ca25" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcCovering.PredefinedType.CLADDING</dt:Name>
+            </ObjectType>
+            <Documentation GUID="6b8abc74-c5e2-45ae-9a64-e91c09beb64f"/>
+            <GeometricalInformation GUID="0f309145-4500-4c72-a41c-8d0790e79a36" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="1819adea-5454-47eb-8c19-91bd72bae780" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcBeam</dt:Name>
+            <ObjectType dt:GUID="1819adea-5454-47eb-8c19-91bd72bae780" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcBeam</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="8975b8e4-6e70-43c3-acee-b65283f0ce95">
+                <Property dt:GUID="2dd5b159-a9ef-48c7-99e3-9f6de9c513ba" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Status</dt:Name>
+                    <dt:Description language="en">Status des Elementes, das vorwiegend bei Renovierungs und Umbaumaßnahmen eines Gebäudes verwendet wird: Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden, als "Vorhanden" zugewiesen werden: Element existiert bereits und bleibt. </dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">Neu</dt:Value>
+                                <dt:Value order="2">Bestand</dt:Value>
+                                <dt:Value order="3">Abbruch</dt:Value>
+                                <dt:Value order="4">Temporär</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="b85b3749-325b-4582-b476-cc2164445295" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">LoadBearing</dt:Name>
+                    <dt:Description language="en">Gibt an, ob das Objekt Lasten aufnehmen soll (TRUE) oder nicht (FALSE)</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+                <Property dt:GUID="da6ddab3-7b72-4486-b68d-8d1b574f9381" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">FireRating</dt:Name>
+                    <dt:Description language="en">Die Brandklassifizierung für dieses Objekt. It entspricht der nationalen Brandschutzklassifizierung.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">F 0 I F30</dt:Value>
+                                <dt:Value order="2">F60</dt:Value>
+                                <dt:Value order="3">F90</dt:Value>
+                                <dt:Value order="4">F120</dt:Value>
+                                <dt:Value order="5">F180 I undefiniert</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="566ff2a9-a1a1-4e11-85da-eb55f42cfed8" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Slope</dt:Name>
+                    <dt:Description language="en">Neigungswinkel des Balkens relative zur Horizontalen (0 Grad).Dieser Parameter wird zusätzlich zur geometrischen Repräsentation bereitgestellt. Im
+Fall der Inkonsistenz zwischen dem Parameter und der Geometrie hat die geometrische Repräsention Priorität.</dt:Description>
+                    <dt:DataType name="REAL"/>
+                </Property>
+                <Property dt:GUID="7d5ec29c-7afb-4019-8859-a82c9828b76d" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Roll</dt:Name>
+                    <dt:Description language="en">Kippwinkel des Balkens relative zur Vertikalen (O Grad).Dieser Parameter wird zusätzlich zur geometrischen Repräsentation bereitgestellt. Im Fall der Inkonsistenz zwischen dem Parameter und der Geometrie hat die geometrische Repräsention Priorität.</dt:Description>
+                    <dt:DataType name="REAL"/>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="ef6be926-7c9b-426d-b3ff-fb61249c3983"/>
+            <GeometricalInformation GUID="66c960e7-1408-4e3f-a3a7-08de6c655674" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="7793235f-40f0-4aff-97aa-3a3b0d0db07a" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcMember</dt:Name>
+            <ObjectType dt:GUID="7793235f-40f0-4aff-97aa-3a3b0d0db07a" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcMember</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="930f46d9-8267-4017-8b88-76661bab0f98">
+                <Property dt:GUID="ae32bef4-6084-40d0-b86e-64695b7971d1" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Status</dt:Name>
+                    <dt:Description language="en">Status bzw. Phase des Bauteils insbesondere beim Bauen im Bestand. "Neu" (new) neues Bauteil als Ergänzung, "Bestand" (existing) bestehendes Bauteil, dass erhalten bleibt, "Abbruch" (demolish) Bauteil, das abgebrochen wird, "Temporär" (temporary) Bauteil und andere Bauelemente, die vorübergehend eingebaut werden (wie Abstützungen, etc.)</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">Neu</dt:Value>
+                                <dt:Value order="2">Bestand</dt:Value>
+                                <dt:Value order="3">Abbruch</dt:Value>
+                                <dt:Value order="4">Temporär</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="9d9b694e-cf1e-43e0-8cc9-7d69339797cd" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">LoadBearing</dt:Name>
+                    <dt:Description language="en">Angabe, ob dieses Bauteil tragend ist (JA) oder nichttragend (NEIN)</dt:Description>
+                    <dt:DataType name="BOOLEAN"/>
+                </Property>
+                <Property dt:GUID="4bbc67e5-5142-45a9-be79-43680145e896" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">FireRating</dt:Name>
+                    <dt:Description language="en">Feuerwiderstandasklasse gemäß der nationalen oder regionalen Brandschutzverordnung.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">F 0 I F30</dt:Value>
+                                <dt:Value order="2">F60</dt:Value>
+                                <dt:Value order="3">F90</dt:Value>
+                                <dt:Value order="4">F120</dt:Value>
+                                <dt:Value order="5">F180 I undefiniert</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="cb8effbb-f660-4ca1-a054-b1c4f33a16a7" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Slope</dt:Name>
+                    <dt:Description language="en">Neigungswinkel des Stabs relative zur Horizontalen (0 Grad).</dt:Description>
+                    <dt:DataType name="REAL"/>
+                </Property>
+                <Property dt:GUID="162fb127-451d-4847-9ed7-14a094dd55a2" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Span</dt:Name>
+                    <dt:Description language="en">Lichte Spannweite des Stabs für die statische Anforderung. </dt:Description>
+                    <dt:DataType name="REAL"/>
+                    <dt:UnitRef dt:GUID="0a9f9fa2-142a-45ae-b9fe-2c7d834c97b3" dt:referenceURI="file:units_quantities_dimensions.xml"/>
+                </Property>
+                <Property dt:GUID="fc206352-6318-4ebf-94bc-090a4574b86a" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Roll</dt:Name>
+                    <dt:Description language="en">Kippwinkel des Stabs relative zur Vertikalen (O Grad).</dt:Description>
+                    <dt:DataType name="REAL"/>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="eb7a9663-b2ed-487c-ae80-31772515a15e"/>
+            <GeometricalInformation GUID="3d747c82-fc00-4340-bbfe-ae3b136372ca" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="e5d7d40f-28c2-40d0-84f5-396d9ecca53e" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcRoof</dt:Name>
+            <ObjectType dt:GUID="e5d7d40f-28c2-40d0-84f5-396d9ecca53e" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcRoof</dt:Name>
+            </ObjectType>
+            <AlphanumericalInformation dt:GUID="df503014-1fae-4ff6-9952-5f2ebe44f5b1">
+                <Property dt:GUID="b2420a75-8368-4784-b8ae-54c548feda14" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">Status</dt:Name>
+                    <dt:Description language="en">Status bzw. Phase des Bauteils insbesondere beim Bauen im Bestand. "Neu" (new) neues Bauteil als Ergänzung, "Bestand" (existing) bestehendes Bauteil, dass erhalten bleibt, "Abbruch" (demolish) Bauteil, das abgebrochen wird, "Temporär" (temporary) Bauteil und andere Bauelemente, die vorübergehend eingebaut werden (wie Abstützungen, etc.)</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">Neu</dt:Value>
+                                <dt:Value order="2">Bestand</dt:Value>
+                                <dt:Value order="3">Abbruch</dt:Value>
+                                <dt:Value order="4">Temporär</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+                <Property dt:GUID="e5f041fa-5095-4bd7-b422-c1bd570e79ae" dateOfCreation="2026-05-11T13:53:10.799275">
+                    <dt:Name language="en">FireRating</dt:Name>
+                    <dt:Description language="en">Feuerwiderstandasklasse gemäß der nationalen oder regionalen Brandschutzverordnung.</dt:Description>
+                    <dt:DataType name="STRING">
+                        <dt:PossibleValues>
+                            <dt:ValueList language="en">
+                                <dt:Value order="1">F 0 I F30</dt:Value>
+                                <dt:Value order="2">F60</dt:Value>
+                                <dt:Value order="3">F90</dt:Value>
+                                <dt:Value order="4">F120</dt:Value>
+                                <dt:Value order="5">F180 I undefiniert</dt:Value>
+                            </dt:ValueList>
+                        </dt:PossibleValues>
+                    </dt:DataType>
+                </Property>
+            </AlphanumericalInformation>
+            <Documentation GUID="4b61df3d-9f46-44b6-bd0c-a1b3ec5bf8c0"/>
+            <GeometricalInformation GUID="3a0d5d03-294f-4d50-ab73-e838833aac02" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="f49a3664-1564-4df2-a0d3-72716bc52ab9" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for i</dt:Name>
+            <ObjectType dt:GUID="f49a3664-1564-4df2-a0d3-72716bc52ab9" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">i</dt:Name>
+            </ObjectType>
+            <Documentation GUID="1ac9823a-9bf4-4a95-a952-58d5665d0d5d"/>
+            <GeometricalInformation GUID="6b0287cc-ed96-45ff-b84d-fa5824b27fad" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="d58f21d3-105c-4547-a48c-0ab1fb45431b" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcPipeSegmentType</dt:Name>
+            <ObjectType dt:GUID="d58f21d3-105c-4547-a48c-0ab1fb45431b" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcPipeSegmentType</dt:Name>
+            </ObjectType>
+            <Documentation GUID="31433664-8939-4c1d-9a66-243de1588d7a"/>
+            <GeometricalInformation GUID="2bc7ba86-d006-4adb-9d75-79147cb8ea94" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="d5e15cfd-08ca-492e-9672-cd0b0958560e" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcCovering.PredefinedType.ROOFING</dt:Name>
+            <ObjectType dt:GUID="d5e15cfd-08ca-492e-9672-cd0b0958560e" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcCovering.PredefinedType.ROOFING</dt:Name>
+            </ObjectType>
+            <Documentation GUID="0676e7dd-e73b-4dc1-9d59-5be254fb00f2"/>
+            <GeometricalInformation GUID="a135c4cc-a357-405b-91a3-6f30769d91cc" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="e359c78f-aae7-47bb-912d-f54b88cc408c" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcBuildingElementProxy.PredefinedType.USERDEFINED[OtherComponent]</dt:Name>
+            <ObjectType dt:GUID="e359c78f-aae7-47bb-912d-f54b88cc408c" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcBuildingElementProxy.PredefinedType.USERDEFINED[OtherComponent]</dt:Name>
+            </ObjectType>
+            <Documentation GUID="d1c2ef02-8085-4e1f-b6bb-7f8629f6f399"/>
+            <GeometricalInformation GUID="776cf77c-6de9-4204-ae6b-e40bcbccfc52" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="36d4c712-2024-40f0-9a46-6da8fe8d3668" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcBuildingElementProxy</dt:Name>
+            <ObjectType dt:GUID="36d4c712-2024-40f0-9a46-6da8fe8d3668" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcBuildingElementProxy</dt:Name>
+            </ObjectType>
+            <Documentation GUID="89727e38-4b74-4f30-b66c-6a2f43db03e2"/>
+            <GeometricalInformation GUID="44e6b4aa-d38b-4ade-8f5b-79408217059d" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="85c9b0d7-10da-4385-aff1-93fe64828316" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowStorageDevice</dt:Name>
+            <ObjectType dt:GUID="85c9b0d7-10da-4385-aff1-93fe64828316" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowStorageDevice</dt:Name>
+            </ObjectType>
+            <Documentation GUID="3e92e48f-b6cf-4480-8b3e-40671181af0f"/>
+            <GeometricalInformation GUID="f58ef30a-1f40-405d-8b46-9534b2adde84" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="74606c24-89ea-49ee-9e83-52072e954e31" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFurnitureType</dt:Name>
+            <ObjectType dt:GUID="74606c24-89ea-49ee-9e83-52072e954e31" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFurnitureType</dt:Name>
+            </ObjectType>
+            <Documentation GUID="ae3b2595-de28-4bff-9529-ff77bc6afc4b"/>
+            <GeometricalInformation GUID="24dc0d6b-651d-496c-8294-79b85a874813" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="903bd743-4146-4d98-809f-12d800565f7d" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for xxxxxxxxxxxxxxxx</dt:Name>
+            <ObjectType dt:GUID="903bd743-4146-4d98-809f-12d800565f7d" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">xxxxxxxxxxxxxxxx</dt:Name>
+            </ObjectType>
+            <Documentation GUID="09fe012f-a094-436d-bd3d-3ec071bc645d"/>
+            <GeometricalInformation GUID="bb2a8690-1682-4986-80f3-ee4531e732f5" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="94ddc520-827f-4a19-a174-5a32ba39d64d" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for [IfcElement, IfcDistributionFlowElement]</dt:Name>
+            <ObjectType dt:GUID="94ddc520-827f-4a19-a174-5a32ba39d64d" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">[IfcElement, IfcDistributionFlowElement]</dt:Name>
+            </ObjectType>
+            <Documentation GUID="2b475c77-3354-4b4c-b376-12da10aacfd8"/>
+            <GeometricalInformation GUID="3b740486-923b-4f00-92b2-087c8339956d" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="b3827744-77f2-4c67-b3bc-bfe5f6c7f796" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcElement und Unterkategorien</dt:Name>
+            <ObjectType dt:GUID="b3827744-77f2-4c67-b3bc-bfe5f6c7f796" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcElement und Unterkategorien</dt:Name>
+            </ObjectType>
+            <Documentation GUID="4862d555-944c-4e28-87d9-701f1e64350d"/>
+            <GeometricalInformation GUID="73cde980-99ba-4fd4-a12c-92025365d35c" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="e57596f3-3457-4c99-8b7f-b5522178ee17" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcDistributionFlowElement</dt:Name>
+            <ObjectType dt:GUID="e57596f3-3457-4c99-8b7f-b5522178ee17" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcDistributionFlowElement</dt:Name>
+            </ObjectType>
+            <Documentation GUID="b59d8652-6631-4fce-aa12-1517b07cd8cb"/>
+            <GeometricalInformation GUID="639d2c51-8382-4503-ac50-c8483b72aef8" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="3dfc3ea9-2242-474a-a2c4-c7db3dc5fc9c" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcDistributionChamberElement</dt:Name>
+            <ObjectType dt:GUID="3dfc3ea9-2242-474a-a2c4-c7db3dc5fc9c" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcDistributionChamberElement</dt:Name>
+            </ObjectType>
+            <Documentation GUID="be751128-61d3-4ed2-8535-d0a5b70147dc"/>
+            <GeometricalInformation GUID="52972c51-ed31-4588-8e91-db06608a92f4" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="16302f64-48f7-4cd4-b18c-18df557ca74e" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowController</dt:Name>
+            <ObjectType dt:GUID="16302f64-48f7-4cd4-b18c-18df557ca74e" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowController</dt:Name>
+            </ObjectType>
+            <Documentation GUID="4674edf3-6d2c-4779-bd3c-90518a981078"/>
+            <GeometricalInformation GUID="1313bdc0-7c9c-4508-b9d9-16b84fa5a3e9" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="429e6c2e-642b-4a57-b304-1101aa44af2d" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowTerminal</dt:Name>
+            <ObjectType dt:GUID="429e6c2e-642b-4a57-b304-1101aa44af2d" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowTerminal</dt:Name>
+            </ObjectType>
+            <Documentation GUID="1c927305-bb41-45a9-800d-0a59ee544f2f"/>
+            <GeometricalInformation GUID="29a5fa3b-d965-4f64-84d8-95bb6d2ec6c6" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="cdf4858e-b1a9-4592-855f-1df5f2b784fb" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowSegment</dt:Name>
+            <ObjectType dt:GUID="cdf4858e-b1a9-4592-855f-1df5f2b784fb" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowSegment</dt:Name>
+            </ObjectType>
+            <Documentation GUID="a2c0d27d-d904-4e5d-ac37-e877a2857012"/>
+            <GeometricalInformation GUID="52c79790-d66e-4e97-99a1-cd2dbdbf5b60" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="506c52c8-c821-4e42-bdef-530f9d3d22e7" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcDistributionChamber</dt:Name>
+            <ObjectType dt:GUID="506c52c8-c821-4e42-bdef-530f9d3d22e7" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcDistributionChamber</dt:Name>
+            </ObjectType>
+            <Documentation GUID="60089e3e-3cd7-4e9a-b49b-d9e4c09053bb"/>
+            <GeometricalInformation GUID="20d21022-ff9b-44f0-959e-d011e60398a2" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="f98c59d9-240b-42c9-85b5-b39e46ceba45" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowMovingDevice</dt:Name>
+            <ObjectType dt:GUID="f98c59d9-240b-42c9-85b5-b39e46ceba45" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowMovingDevice</dt:Name>
+            </ObjectType>
+            <Documentation GUID="6f6d43ad-8a1d-4369-a470-bc29eccf9169"/>
+            <GeometricalInformation GUID="cdbea925-7ec5-4d39-8349-8abff6daa1cb" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="2469f845-0d66-49a0-8225-a069ff8f4a28" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowTreatmentDevice</dt:Name>
+            <ObjectType dt:GUID="2469f845-0d66-49a0-8225-a069ff8f4a28" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowTreatmentDevice</dt:Name>
+            </ObjectType>
+            <Documentation GUID="4bdc643c-589c-4b17-a8ac-c359eecd4a42"/>
+            <GeometricalInformation GUID="18d5a031-979b-4bc8-984d-cd494d92a333" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="1e775d7a-d71c-49b8-8a32-c1e291f2e18d" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcDistributionFlowElement (IsTypedBy IfcPipeSegmentType)</dt:Name>
+            <ObjectType dt:GUID="1e775d7a-d71c-49b8-8a32-c1e291f2e18d" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcDistributionFlowElement (IsTypedBy IfcPipeSegmentType)</dt:Name>
+            </ObjectType>
+            <Documentation GUID="47fe504c-ea4d-4395-8f34-9f9446f74286"/>
+            <GeometricalInformation GUID="501e91d8-36ee-409d-874c-5d9743b453ff" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="5ec3429d-bad7-407e-a28c-a8ed26ab30f1" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcDistributionElement</dt:Name>
+            <ObjectType dt:GUID="5ec3429d-bad7-407e-a28c-a8ed26ab30f1" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcDistributionElement</dt:Name>
+            </ObjectType>
+            <Documentation GUID="55de2da0-2449-4155-9941-2a11a1c33a45"/>
+            <GeometricalInformation GUID="30df5fce-0a27-4278-b6c4-b1adfd5926ad" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="ad8d94ad-45c1-43af-b972-77f6d36e8660" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowController (IsTypedBy IfcValveType)</dt:Name>
+            <ObjectType dt:GUID="ad8d94ad-45c1-43af-b972-77f6d36e8660" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowController (IsTypedBy IfcValveType)</dt:Name>
+            </ObjectType>
+            <Documentation GUID="4396f17b-340a-4ac7-9f7e-791e684d39fc"/>
+            <GeometricalInformation GUID="c7616e47-b9d9-4296-a6d3-d18352fff24b" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="3a097c01-a0b1-4db5-9724-7cd0054121cc" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowTreatmentDevice (IsTypedBy IfcFilterType)</dt:Name>
+            <ObjectType dt:GUID="3a097c01-a0b1-4db5-9724-7cd0054121cc" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowTreatmentDevice (IsTypedBy IfcFilterType)</dt:Name>
+            </ObjectType>
+            <Documentation GUID="d781e781-613d-4a31-acd4-56f01ed9500e"/>
+            <GeometricalInformation GUID="a2eeac18-1378-4d98-87ec-1eabd0a08f72" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="a5ae440d-0e18-439e-a3c3-cca92a4afcf4" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowSegment (IsTypedBy IfcPipeSegmentType)</dt:Name>
+            <ObjectType dt:GUID="a5ae440d-0e18-439e-a3c3-cca92a4afcf4" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowSegment (IsTypedBy IfcPipeSegmentType)</dt:Name>
+            </ObjectType>
+            <Documentation GUID="f39f7af8-2fe7-4ff9-b4ff-eaf036db29f2"/>
+            <GeometricalInformation GUID="70926a80-094c-42c2-adbd-e1063d3834ef" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="acad6e1f-c64b-48fa-ad45-bd11ab917706" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowStorageDevice (IsTypedBy IfcTankType)</dt:Name>
+            <ObjectType dt:GUID="acad6e1f-c64b-48fa-ad45-bd11ab917706" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowStorageDevice (IsTypedBy IfcTankType)</dt:Name>
+            </ObjectType>
+            <Documentation GUID="caa853bb-563f-4d53-a127-f811cd503e57"/>
+            <GeometricalInformation GUID="eb290780-9a0f-418e-9d92-4c040a0dec02" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="0d1d6f68-e29f-4cf5-894d-4b114dd1588a" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowStorageDevice / IfcTankType</dt:Name>
+            <ObjectType dt:GUID="0d1d6f68-e29f-4cf5-894d-4b114dd1588a" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowStorageDevice / IfcTankType</dt:Name>
+            </ObjectType>
+            <Documentation GUID="ceda04a5-5982-4a74-af4f-8ef78057dff9"/>
+            <GeometricalInformation GUID="fa1bbd5e-bdc6-4bd7-a7c7-c53e9304e3f8" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="2c580c74-eb74-41d8-9404-3dbf0e130220" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcStorageDevice</dt:Name>
+            <ObjectType dt:GUID="2c580c74-eb74-41d8-9404-3dbf0e130220" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcStorageDevice</dt:Name>
+            </ObjectType>
+            <Documentation GUID="0b4f2a13-0796-45b4-aad6-429355d89746"/>
+            <GeometricalInformation GUID="8e98e452-8289-4307-98bc-2cca56661533" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="24b4571f-acb6-470d-b166-ae0d802eba7a" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcEnergyConversionDevice / IfcHeatExchangerType</dt:Name>
+            <ObjectType dt:GUID="24b4571f-acb6-470d-b166-ae0d802eba7a" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcEnergyConversionDevice / IfcHeatExchangerType</dt:Name>
+            </ObjectType>
+            <Documentation GUID="16785b3f-f4bd-4707-978e-b5a073495ec5"/>
+            <GeometricalInformation GUID="bd00ae96-3c2e-4a89-b3df-1f06ef23fe7f" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="0749da81-b669-4428-a6f8-5641d8509d20" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowMovingDevice / IfcFanType</dt:Name>
+            <ObjectType dt:GUID="0749da81-b669-4428-a6f8-5641d8509d20" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowMovingDevice / IfcFanType</dt:Name>
+            </ObjectType>
+            <Documentation GUID="12eeae45-0006-4758-8197-e3ed925ddd01"/>
+            <GeometricalInformation GUID="99f4f549-7df3-4f30-892f-04616c994ff4" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="99b42e95-d546-4111-97c2-dc2c424198db" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowSegment / IfcFlowFitting</dt:Name>
+            <ObjectType dt:GUID="99b42e95-d546-4111-97c2-dc2c424198db" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowSegment / IfcFlowFitting</dt:Name>
+            </ObjectType>
+            <Documentation GUID="8573a05f-920c-4ee5-a6b4-68e5720a644f"/>
+            <GeometricalInformation GUID="f0d93358-5756-4473-bd64-19aa0cad0d77" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="bdc14029-e274-4dda-a65d-1317a028f8e7" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcStorageDevice / IfcTankType</dt:Name>
+            <ObjectType dt:GUID="bdc14029-e274-4dda-a65d-1317a028f8e7" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcStorageDevice / IfcTankType</dt:Name>
+            </ObjectType>
+            <Documentation GUID="93609dcb-2a13-4442-88c9-fcbc45cff319"/>
+            <GeometricalInformation GUID="b2d88c9b-a83e-49f3-8b74-244d5b2b6875" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="120ebef6-97f0-4ff6-ba05-783ea54a03e5" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowFitting</dt:Name>
+            <ObjectType dt:GUID="120ebef6-97f0-4ff6-ba05-783ea54a03e5" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowFitting</dt:Name>
+            </ObjectType>
+            <Documentation GUID="2147de0e-e16b-4a68-9c4c-8f21a8541fec"/>
+            <GeometricalInformation GUID="71833482-3cba-449a-bcdd-d07a41530821" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="2d1427ad-abcb-4670-bc98-37cf6e8233dd" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcBuildingElement</dt:Name>
+            <ObjectType dt:GUID="2d1427ad-abcb-4670-bc98-37cf6e8233dd" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcBuildingElement</dt:Name>
+            </ObjectType>
+            <Documentation GUID="87f42e00-0e15-455f-916e-6a03df57c24e"/>
+            <GeometricalInformation GUID="6056d379-fdfb-4e5d-be88-850910541354" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="0a590010-9632-4ace-ab61-5ae298d63c1d" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcEnergyConversionDevice (IsTypedBy IfcChillerType)</dt:Name>
+            <ObjectType dt:GUID="0a590010-9632-4ace-ab61-5ae298d63c1d" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcEnergyConversionDevice (IsTypedBy IfcChillerType)</dt:Name>
+            </ObjectType>
+            <Documentation GUID="8cfc3532-dcb1-48f8-957b-6a2725b7f00e"/>
+            <GeometricalInformation GUID="23788a04-bb11-44ca-a618-9e9af49890e0" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="a7082bbe-d726-467f-bc2a-4efe4256475a" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowMovingDevice (IsTypedBy IfcFanType)</dt:Name>
+            <ObjectType dt:GUID="a7082bbe-d726-467f-bc2a-4efe4256475a" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowMovingDevice (IsTypedBy IfcFanType)</dt:Name>
+            </ObjectType>
+            <Documentation GUID="ffd3c44c-5841-4e15-9d09-d5c5e14ee2de"/>
+            <GeometricalInformation GUID="07e89db0-57f1-45ff-8730-ede825657a5a" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="7a3fdf43-960f-47ae-a368-2e07c6838b51" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcEnergyConversionDevice (IsTypedBy IfcEvaporatorType)</dt:Name>
+            <ObjectType dt:GUID="7a3fdf43-960f-47ae-a368-2e07c6838b51" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcEnergyConversionDevice (IsTypedBy IfcEvaporatorType)</dt:Name>
+            </ObjectType>
+            <Documentation GUID="41598daa-7879-476f-a3ca-6e5d7ee17513"/>
+            <GeometricalInformation GUID="788f9449-5794-452c-8477-4fa657c789df" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="97caf4ab-14e1-43d4-9007-f1229fc64835" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for -</dt:Name>
+            <ObjectType dt:GUID="97caf4ab-14e1-43d4-9007-f1229fc64835" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">-</dt:Name>
+            </ObjectType>
+            <Documentation GUID="de1d6abb-8f08-42b0-804f-0340ee716723"/>
+            <GeometricalInformation GUID="dd387170-869a-4290-9acd-47456b3844ac" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="4bfa123c-0334-41e9-8149-86e67b3da866" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowTreatment</dt:Name>
+            <ObjectType dt:GUID="4bfa123c-0334-41e9-8149-86e67b3da866" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowTreatment</dt:Name>
+            </ObjectType>
+            <Documentation GUID="6a311c9d-7269-4491-ad70-66e55f3963d6"/>
+            <GeometricalInformation GUID="cbab6cc9-6f84-4e2b-af91-75c20ca1222f" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="bd527dae-e605-4cff-b5ec-45200e6b2254" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcEnergyConversionDevice (IsTypedBy IfcTransformerType)</dt:Name>
+            <ObjectType dt:GUID="bd527dae-e605-4cff-b5ec-45200e6b2254" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcEnergyConversionDevice (IsTypedBy IfcTransformerType)</dt:Name>
+            </ObjectType>
+            <Documentation GUID="a336d9e7-ae6b-427a-9d0b-1aa3dd8889ce"/>
+            <GeometricalInformation GUID="4826adf8-1529-4846-b461-4f2ee0175905" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="a8c146dc-16c3-451b-ba34-7df25c28ec44" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcElement</dt:Name>
+            <ObjectType dt:GUID="a8c146dc-16c3-451b-ba34-7df25c28ec44" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcElement</dt:Name>
+            </ObjectType>
+            <Documentation GUID="72745683-900b-43d4-af68-66763111f3c2"/>
+            <GeometricalInformation GUID="bcf64133-4d87-4440-ac8e-bc33792227f4" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="63f5230f-5fda-4a1c-921c-43dfcf8f4d5b" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcTransportElement</dt:Name>
+            <ObjectType dt:GUID="63f5230f-5fda-4a1c-921c-43dfcf8f4d5b" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcTransportElement</dt:Name>
+            </ObjectType>
+            <Documentation GUID="8905567f-61dc-4ede-a2be-dd0ec6744326"/>
+            <GeometricalInformation GUID="cfe8506a-7b10-4ee0-b783-c7cb70c21b1a" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="90b72f44-84b5-4456-9696-d1a8b8a93881" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcEnergyConversionDevice / IfcDistributionFlowElement</dt:Name>
+            <ObjectType dt:GUID="90b72f44-84b5-4456-9696-d1a8b8a93881" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcEnergyConversionDevice / IfcDistributionFlowElement</dt:Name>
+            </ObjectType>
+            <Documentation GUID="a97e33fe-724b-4b13-a506-24b5c1010e41"/>
+            <GeometricalInformation GUID="9975e231-fc6f-434b-9b84-911149352588" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="73e17756-e7c4-45d1-a6f8-fc740f079862" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFurniture</dt:Name>
+            <ObjectType dt:GUID="73e17756-e7c4-45d1-a6f8-fc740f079862" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFurniture</dt:Name>
+            </ObjectType>
+            <Documentation GUID="66c11c8d-2f87-44cf-ba9b-a4b2f9be8469"/>
+            <GeometricalInformation GUID="fcc110d9-8141-4035-b60d-9e382eb189e1" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="3d7ee960-714c-4012-950d-361f08a121a1" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcDistributionStorageDevice</dt:Name>
+            <ObjectType dt:GUID="3d7ee960-714c-4012-950d-361f08a121a1" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcDistributionStorageDevice</dt:Name>
+            </ObjectType>
+            <Documentation GUID="0c4a0cfe-15ed-4c55-8322-db73ee84c7d6"/>
+            <GeometricalInformation GUID="0126c804-ba55-49a3-99d4-07d65fc2ece0" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="fd70d292-0cb8-4ce0-a9ff-a9620e36b4c3" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for [IfcFlowController,  IfcDistributionControlElement]</dt:Name>
+            <ObjectType dt:GUID="fd70d292-0cb8-4ce0-a9ff-a9620e36b4c3" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">[IfcFlowController,  IfcDistributionControlElement]</dt:Name>
+            </ObjectType>
+            <Documentation GUID="15152d50-6753-4263-af19-a70029087750"/>
+            <GeometricalInformation GUID="dbef9f1c-0b85-48c6-b354-ccc211534d0a" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="71e80dca-8a24-4b45-a39a-933a802a1eff" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcFlowTerminal  / IfcDistributionFlowElement</dt:Name>
+            <ObjectType dt:GUID="71e80dca-8a24-4b45-a39a-933a802a1eff" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcFlowTerminal  / IfcDistributionFlowElement</dt:Name>
+            </ObjectType>
+            <Documentation GUID="9e520b78-b2a1-42bf-a22b-f7fe6035b7b0"/>
+            <GeometricalInformation GUID="dea06c25-1bf2-4c99-b0af-0dff4a053ff1" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="4b33f92f-46e8-4ca5-9e98-a19ff55b72f8" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for [IfcElement, IfcDistributionElement]</dt:Name>
+            <ObjectType dt:GUID="4b33f92f-46e8-4ca5-9e98-a19ff55b72f8" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">[IfcElement, IfcDistributionElement]</dt:Name>
+            </ObjectType>
+            <Documentation GUID="96fa9fde-c082-4cf9-b9f9-51715bca9aad"/>
+            <GeometricalInformation GUID="a3d61055-3876-4e7f-a04f-a95b006a4fd9" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="def20ac6-1d68-4f6a-845f-d5521e44dd5e" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for [IfcElement, IfcBuildingElementProxy, IfcDistributionElement]</dt:Name>
+            <ObjectType dt:GUID="def20ac6-1d68-4f6a-845f-d5521e44dd5e" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">[IfcElement, IfcBuildingElementProxy, IfcDistributionElement]</dt:Name>
+            </ObjectType>
+            <Documentation GUID="e5754d1b-fe1e-4320-82f7-b35342a42499"/>
+            <GeometricalInformation GUID="7f1c4604-94fa-4e0e-b978-ea20077dea06" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="42b40ffd-7738-4353-abbe-8f31b6200f47" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcDistributionFlowTerminal</dt:Name>
+            <ObjectType dt:GUID="42b40ffd-7738-4353-abbe-8f31b6200f47" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcDistributionFlowTerminal</dt:Name>
+            </ObjectType>
+            <Documentation GUID="a6d321ea-ed79-425f-b40d-644a4c04d52c"/>
+            <GeometricalInformation GUID="02fca1ae-01ce-4f7c-ac98-e6b7de664f3e" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="043bf9bb-7308-440c-86f7-0ea4d2ce127a" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for IfcChamberElement</dt:Name>
+            <ObjectType dt:GUID="043bf9bb-7308-440c-86f7-0ea4d2ce127a" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">IfcChamberElement</dt:Name>
+            </ObjectType>
+            <Documentation GUID="4730d2c7-f5dd-465c-a4e7-ce65ca8a70d4"/>
+            <GeometricalInformation GUID="943f40c5-2883-4e95-bb30-1945f7b95d39" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="4cb45f27-dbdc-4966-bbe6-1475101a64ee" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for [IfcDistributionElement, IfcElement]</dt:Name>
+            <ObjectType dt:GUID="4cb45f27-dbdc-4966-bbe6-1475101a64ee" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">[IfcDistributionElement, IfcElement]</dt:Name>
+            </ObjectType>
+            <Documentation GUID="a8ef1841-3172-4026-a8d2-0247446a8814"/>
+            <GeometricalInformation GUID="7326a00c-0ed9-49c9-a94b-fe7026c2ea6d" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <SpecificationPerObjectType dt:GUID="fca7ec37-3874-4223-a82a-a1ac23d02d44" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Specification for [IfcDistributionFlowElement, IfcDistributionControlElement, IfcBuildingElementProxy, IfcElement]</dt:Name>
+            <ObjectType dt:GUID="fca7ec37-3874-4223-a82a-a1ac23d02d44" dateOfCreation="2026-05-11T13:53:10.799275">
+                <dt:Name language="en">[IfcDistributionFlowElement, IfcDistributionControlElement, IfcBuildingElementProxy, IfcElement]</dt:Name>
+            </ObjectType>
+            <Documentation GUID="bf8f4f15-e2a7-4da1-a28f-b3ceaeb6d015"/>
+            <GeometricalInformation GUID="2abf295d-de02-423b-8f43-b1d72ead9988" placeholder="false"/>
+        </SpecificationPerObjectType>
+        <QuantityKind dt:GUID="eb5a386a-b077-4c61-9c76-1e2458ef6604" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Length</dt:Name>
+            <dt:Definition language="en">The distance between two points in space</dt:Definition>
+            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/quantitykind/Length"/>
+            <dt:DimensionRef dt:GUID="69b1efda-c27f-4253-a3fc-d89f36fb4641"/>
+        </QuantityKind>
+        <Dimension dt:GUID="69b1efda-c27f-4253-a3fc-d89f36fb4641" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">Length</dt:Name>
+            <dt:Definition language="en">The dimension of length (L)</dt:Definition>
+            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T0D0"/>
+            <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
+            <dt:DimensionExponentForElectricCurrent>0</dt:DimensionExponentForElectricCurrent>
+            <dt:DimensionExponentForLength>1</dt:DimensionExponentForLength>
+            <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
+            <dt:DimensionExponentForMass>0</dt:DimensionExponentForMass>
+            <dt:DimensionExponentForThermodynamicTemperature>0</dt:DimensionExponentForThermodynamicTemperature>
+            <dt:DimensionExponentForTime>0</dt:DimensionExponentForTime>
+        </Dimension>
+        <Unit dt:GUID="0a9f9fa2-142a-45ae-b9fe-2c7d834c97b3" dateOfCreation="2026-05-11T13:53:10.799275">
+            <dt:Name language="en">meter</dt:Name>
+            <dt:Definition language="en">SI base unit of length</dt:Definition>
+            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/unit/M"/>
+            <dt:Symbol language="en">m</dt:Symbol>
+            <dt:DimensionRef dt:GUID="69b1efda-c27f-4253-a3fc-d89f36fb4641"/>
+            <dt:Scale>LINEAR</dt:Scale>
+            <dt:Base>TEN</dt:Base>
+            <dt:Coefficient>1/1</dt:Coefficient>
+            <dt:Offset>0/1</dt:Offset>
+        </Unit>
+        <GeoReferencing dt:GUID="cc601121-174c-453c-9923-d58d4e335534"/>
+    </Specification>
+</loin:LevelOfInformationNeed>
