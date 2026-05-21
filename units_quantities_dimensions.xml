@@ -1,98 +1,33 @@
-        <QuantityKind dt:GUID="b73c2d5d-fa9c-4a85-9aa7-b96ad56d06e5" dateOfCreation="2026-05-11T11:44:46.945674">
-            <dt:Name language="en">Area</dt:Name>
-            <dt:Definition language="en">The extent of a surface</dt:Definition>
-            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/quantitykind/Area"/>
-            <dt:DimensionRef dt:GUID="753f03ca-bc21-4cca-a3b8-7bf20d4639d7"/>
-        </QuantityKind>
-        <QuantityKind dt:GUID="8a3c1aa4-dd19-412a-a61a-786c7d912ba8" dateOfCreation="2026-05-11T11:44:46.945674">
-            <dt:Name language="en">Length</dt:Name>
-            <dt:Definition language="en">The distance between two points in space</dt:Definition>
-            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/quantitykind/Length"/>
-            <dt:DimensionRef dt:GUID="ce4617c1-1998-4ee7-9e04-60ba6297eb15"/>
-        </QuantityKind>
-        <QuantityKind dt:GUID="d7b55d06-2aa1-4f71-b8b4-cea4dcb61b10" dateOfCreation="2026-05-11T11:44:46.945674">
-            <dt:Name language="en">Volume</dt:Name>
-            <dt:Definition language="en">The amount of three-dimensional space</dt:Definition>
-            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/quantitykind/Volume"/>
-            <dt:DimensionRef dt:GUID="8d840bc7-fc3f-400e-8966-1fce754fff31"/>
-        </QuantityKind>
-        <Dimension dt:GUID="753f03ca-bc21-4cca-a3b8-7bf20d4639d7" dateOfCreation="2026-05-11T11:44:46.945674">
-            <dt:Name language="en">Area</dt:Name>
-            <dt:Definition language="en">The dimension of area (L²)</dt:Definition>
-            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T0D0"/>
-            <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
-            <dt:DimensionExponentForElectricCurrent>0</dt:DimensionExponentForElectricCurrent>
-            <dt:DimensionExponentForLength>2</dt:DimensionExponentForLength>
-            <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
-            <dt:DimensionExponentForMass>0</dt:DimensionExponentForMass>
-            <dt:DimensionExponentForThermodynamicTemperature>0</dt:DimensionExponentForThermodynamicTemperature>
-            <dt:DimensionExponentForTime>0</dt:DimensionExponentForTime>
-        </Dimension>
-        <Dimension dt:GUID="ce4617c1-1998-4ee7-9e04-60ba6297eb15" dateOfCreation="2026-05-11T11:44:46.945674">
-            <dt:Name language="en">Length</dt:Name>
-            <dt:Definition language="en">The dimension of length (L)</dt:Definition>
-            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T0D0"/>
-            <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
-            <dt:DimensionExponentForElectricCurrent>0</dt:DimensionExponentForElectricCurrent>
-            <dt:DimensionExponentForLength>1</dt:DimensionExponentForLength>
-            <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
-            <dt:DimensionExponentForMass>0</dt:DimensionExponentForMass>
-            <dt:DimensionExponentForThermodynamicTemperature>0</dt:DimensionExponentForThermodynamicTemperature>
-            <dt:DimensionExponentForTime>0</dt:DimensionExponentForTime>
-        </Dimension>
-        <Dimension dt:GUID="8d840bc7-fc3f-400e-8966-1fce754fff31" dateOfCreation="2026-05-11T11:44:46.945674">
-            <dt:Name language="en">Volume</dt:Name>
-            <dt:Definition language="en">The dimension of volume (L³)</dt:Definition>
-            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/dimensionvector/A0E0L3I0M0H0T0D0"/>
-            <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
-            <dt:DimensionExponentForElectricCurrent>0</dt:DimensionExponentForElectricCurrent>
-            <dt:DimensionExponentForLength>3</dt:DimensionExponentForLength>
-            <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
-            <dt:DimensionExponentForMass>0</dt:DimensionExponentForMass>
-            <dt:DimensionExponentForThermodynamicTemperature>0</dt:DimensionExponentForThermodynamicTemperature>
-            <dt:DimensionExponentForTime>0</dt:DimensionExponentForTime>
-        </Dimension>
-        <Unit dt:GUID="5aa6ba00-5947-4dc8-a043-5bc4fb26c7d9" dateOfCreation="2026-05-11T11:44:46.945674">
-            <dt:Name language="en">square meter</dt:Name>
-            <dt:Definition language="en">SI unit of area</dt:Definition>
-            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/unit/M2"/>
-            <dt:Symbol language="en">m²</dt:Symbol>
-            <dt:DimensionRef dt:GUID="753f03ca-bc21-4cca-a3b8-7bf20d4639d7"/>
-            <dt:Scale>LINEAR</dt:Scale>
-            <dt:Base>TEN</dt:Base>
-            <dt:Coefficient>1/1</dt:Coefficient>
-            <dt:Offset>0/1</dt:Offset>
-        </Unit>
-        <Unit dt:GUID="7c064618-0f15-4a5e-9698-439c53b63093" dateOfCreation="2026-05-11T11:44:46.945674">
-            <dt:Name language="en">meter</dt:Name>
-            <dt:Definition language="en">SI base unit of length</dt:Definition>
-            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/unit/M"/>
-            <dt:Symbol language="en">m</dt:Symbol>
-            <dt:DimensionRef dt:GUID="ce4617c1-1998-4ee7-9e04-60ba6297eb15"/>
-            <dt:Scale>LINEAR</dt:Scale>
-            <dt:Base>TEN</dt:Base>
-            <dt:Coefficient>1/1</dt:Coefficient>
-            <dt:Offset>0/1</dt:Offset>
-        </Unit>
-        <Unit dt:GUID="89984003-8fb7-49cd-be39-1df794806859" dateOfCreation="2026-05-11T11:44:46.945674">
-            <dt:Name language="en">cubic meter</dt:Name>
-            <dt:Definition language="en">SI unit of volume</dt:Definition>
-            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/unit/M3"/>
-            <dt:Symbol language="en">m³</dt:Symbol>
-            <dt:DimensionRef dt:GUID="8d840bc7-fc3f-400e-8966-1fce754fff31"/>
-            <dt:Scale>LINEAR</dt:Scale>
-            <dt:Base>TEN</dt:Base>
-            <dt:Coefficient>1/1</dt:Coefficient>
-            <dt:Offset>0/1</dt:Offset>
-        </Unit>
-        <Unit dt:GUID="891ae374-de45-42bc-8894-f2edd8c2a9b6" dateOfCreation="2026-05-11T11:44:46.945674">
-            <dt:Name language="en">millimeter</dt:Name>
-            <dt:Definition language="en">One thousandth of a meter</dt:Definition>
-            <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/unit/MilliM"/>
-            <dt:Symbol language="en">mm</dt:Symbol>
-            <dt:DimensionRef dt:GUID="ce4617c1-1998-4ee7-9e04-60ba6297eb15"/>
-            <dt:Scale>LINEAR</dt:Scale>
-            <dt:Base>TEN</dt:Base>
-            <dt:Coefficient>1/1000</dt:Coefficient>
-            <dt:Offset>0/1</dt:Offset>
-        </Unit>
+<?xml version='1.0' encoding='UTF-8'?>
+<dt:Library xmlns:loin="https://iso.org/2024/LOIN" xmlns:dt="https://standards.iso.org/iso/23387/ed-2/en/" dt:GUID="66602f6d-357e-4d29-8e2b-1b088c001dff">
+    <dt:Name language="en">Units Quantities Dimensions Library</dt:Name>
+    <QuantityKind dt:GUID="e4cb38a2-19bc-4666-950a-b51e781aa332" dateOfCreation="2026-05-21T02:24:54.054281">
+        <dt:Name language="de">Length</dt:Name>
+        <dt:Definition language="de">The distance between two points in space</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/quantitykind/Length"/>
+        <dt:DimensionRef dt:GUID="86021768-fa4f-4aaa-8a1a-7b93da5e3a9d"/>
+    </QuantityKind>
+    <Dimension dt:GUID="86021768-fa4f-4aaa-8a1a-7b93da5e3a9d" dateOfCreation="2026-05-21T02:24:54.054281">
+        <dt:Name language="de">Length</dt:Name>
+        <dt:Definition language="de">The dimension of length (L)</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T0D0"/>
+        <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
+        <dt:DimensionExponentForElectricCurrent>0</dt:DimensionExponentForElectricCurrent>
+        <dt:DimensionExponentForLength>1</dt:DimensionExponentForLength>
+        <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
+        <dt:DimensionExponentForMass>0</dt:DimensionExponentForMass>
+        <dt:DimensionExponentForThermodynamicTemperature>0</dt:DimensionExponentForThermodynamicTemperature>
+        <dt:DimensionExponentForTime>0</dt:DimensionExponentForTime>
+    </Dimension>
+    <Unit dt:GUID="54c569ff-7f4a-4122-8211-1de3f33bc349" dateOfCreation="2026-05-21T02:24:54.054281">
+        <dt:Name language="de">meter</dt:Name>
+        <dt:Definition language="de">SI base unit of length</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/unit/M"/>
+        <dt:Symbol language="de">m</dt:Symbol>
+        <dt:DimensionRef dt:GUID="86021768-fa4f-4aaa-8a1a-7b93da5e3a9d"/>
+        <dt:Scale>LINEAR</dt:Scale>
+        <dt:Base>TEN</dt:Base>
+        <dt:Coefficient>1/1</dt:Coefficient>
+        <dt:Offset>0/1</dt:Offset>
+    </Unit>
+</dt:Library>
