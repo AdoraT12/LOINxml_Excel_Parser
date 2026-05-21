@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dt:Library xmlns:loin="https://iso.org/2024/LOIN" xmlns:dt="https://standards.iso.org/iso/23387/ed-2/en/" dt:GUID="fbb76e82-8a37-473c-b9be-ae0e03e52838">
+    <dt:Name language="en">Units Quantities Dimensions Library</dt:Name>
+    <QuantityKind dt:GUID="6f98a452-4916-4231-b268-5d8209507daa" dateOfCreation="2026-05-21T10:29:45.763818">
+        <dt:Name language="de">W/(m²·K)</dt:Name>
+        <dt:Definition language="de">TODO:PLACEHOLDER DEFINITION</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
+        <dt:DimensionRef dt:GUID="c594d138-109f-4e05-a649-157b429a5cec"/>
+    </QuantityKind>
+    <QuantityKind dt:GUID="36488be7-e21b-4096-a22d-080a7dbee7c5" dateOfCreation="2026-05-21T10:29:45.763818">
+        <dt:Name language="de">Length</dt:Name>
+        <dt:Definition language="de">The distance between two points in space</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/quantitykind/Length"/>
+        <dt:DimensionRef dt:GUID="90ffd1df-36b0-4e5d-b70a-d0d92f645d32"/>
+    </QuantityKind>
+    <QuantityKind dt:GUID="3a41a786-ba55-4bf0-af11-f1296d226697" dateOfCreation="2026-05-21T10:29:45.763818">
+        <dt:Name language="de">%</dt:Name>
+        <dt:Definition language="de">TODO:PLACEHOLDER DEFINITION</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
+        <dt:DimensionRef dt:GUID="d0c4026d-3f95-4e53-8d2e-a6a03ed19d8b"/>
+    </QuantityKind>
+    <QuantityKind dt:GUID="44fdae84-21d0-41d7-93ef-c09be91b8795" dateOfCreation="2026-05-21T10:29:45.763818">
+        <dt:Name language="de">°</dt:Name>
+        <dt:Definition language="de">TODO:PLACEHOLDER DEFINITION</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
+        <dt:DimensionRef dt:GUID="03e42178-5072-445b-8aaa-810582c7b1bc"/>
+    </QuantityKind>
+    <Dimension dt:GUID="c594d138-109f-4e05-a649-157b429a5cec" dateOfCreation="2026-05-21T10:29:45.763818">
+        <dt:Name language="de">W/(m²·K)_Dimension</dt:Name>
+        <dt:Definition language="de">TODO: PLACEHOLDER DEFINITION</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
+        <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
+        <dt:DimensionExponentForElectricCurrent>0</dt:DimensionExponentForElectricCurrent>
+        <dt:DimensionExponentForLength>0</dt:DimensionExponentForLength>
+        <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
+        <dt:DimensionExponentForMass>0</dt:DimensionExponentForMass>
+        <dt:DimensionExponentForThermodynamicTemperature>0</dt:DimensionExponentForThermodynamicTemperature>
+        <dt:DimensionExponentForTime>0</dt:DimensionExponentForTime>
+    </Dimension>
+    <Dimension dt:GUID="90ffd1df-36b0-4e5d-b70a-d0d92f645d32" dateOfCreation="2026-05-21T10:29:45.763818">
+        <dt:Name language="de">Length</dt:Name>
+        <dt:Definition language="de">The dimension of length (L)</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T0D0"/>
+        <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
+        <dt:DimensionExponentForElectricCurrent>0</dt:DimensionExponentForElectricCurrent>
+        <dt:DimensionExponentForLength>1</dt:DimensionExponentForLength>
+        <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
+        <dt:DimensionExponentForMass>0</dt:DimensionExponentForMass>
+        <dt:DimensionExponentForThermodynamicTemperature>0</dt:DimensionExponentForThermodynamicTemperature>
+        <dt:DimensionExponentForTime>0</dt:DimensionExponentForTime>
+    </Dimension>
+    <Dimension dt:GUID="d0c4026d-3f95-4e53-8d2e-a6a03ed19d8b" dateOfCreation="2026-05-21T10:29:45.763818">
+        <dt:Name language="de">%_Dimension</dt:Name>
+        <dt:Definition language="de">TODO: PLACEHOLDER DEFINITION</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
+        <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
+        <dt:DimensionExponentForElectricCurrent>0</dt:DimensionExponentForElectricCurrent>
+        <dt:DimensionExponentForLength>0</dt:DimensionExponentForLength>
+        <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
+        <dt:DimensionExponentForMass>0</dt:DimensionExponentForMass>
+        <dt:DimensionExponentForThermodynamicTemperature>0</dt:DimensionExponentForThermodynamicTemperature>
+        <dt:DimensionExponentForTime>0</dt:DimensionExponentForTime>
+    </Dimension>
+    <Dimension dt:GUID="03e42178-5072-445b-8aaa-810582c7b1bc" dateOfCreation="2026-05-21T10:29:45.763818">
+        <dt:Name language="de">°_Dimension</dt:Name>
+        <dt:Definition language="de">TODO: PLACEHOLDER DEFINITION</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
+        <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
+        <dt:DimensionExponentForElectricCurrent>0</dt:DimensionExponentForElectricCurrent>
+        <dt:DimensionExponentForLength>0</dt:DimensionExponentForLength>
+        <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
+        <dt:DimensionExponentForMass>0</dt:DimensionExponentForMass>
+        <dt:DimensionExponentForThermodynamicTemperature>0</dt:DimensionExponentForThermodynamicTemperature>
+        <dt:DimensionExponentForTime>0</dt:DimensionExponentForTime>
+    </Dimension>
+    <Unit dt:GUID="d797cfa8-2d2a-4566-be09-c70b54d8d403" dateOfCreation="2026-05-21T10:29:45.763818">
+        <dt:Name language="de">W/(m²·K)</dt:Name>
+        <dt:Definition language="de">TODO: PLACEHOLDER DEFINITION</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
+        <dt:Symbol language="de">W/(m²·K)</dt:Symbol>
+        <dt:DimensionRef dt:GUID="c594d138-109f-4e05-a649-157b429a5cec"/>
+        <dt:Scale>LINEAR</dt:Scale>
+        <dt:Base>TEN</dt:Base>
+        <dt:Coefficient>1/1</dt:Coefficient>
+        <dt:Offset>0/1</dt:Offset>
+    </Unit>
+    <Unit dt:GUID="5e2e0413-7ae0-4133-bef5-eda31194e0dc" dateOfCreation="2026-05-21T10:29:45.763818">
+        <dt:Name language="de">meter</dt:Name>
+        <dt:Definition language="de">SI base unit of length</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/unit/M"/>
+        <dt:Symbol language="de">m</dt:Symbol>
+        <dt:DimensionRef dt:GUID="90ffd1df-36b0-4e5d-b70a-d0d92f645d32"/>
+        <dt:Scale>LINEAR</dt:Scale>
+        <dt:Base>TEN</dt:Base>
+        <dt:Coefficient>1/1</dt:Coefficient>
+        <dt:Offset>0/1</dt:Offset>
+    </Unit>
+    <Unit dt:GUID="30cd9d1f-63ec-4655-88dd-e2d29fe10aa5" dateOfCreation="2026-05-21T10:29:45.763818">
+        <dt:Name language="de">%</dt:Name>
+        <dt:Definition language="de">TODO: PLACEHOLDER DEFINITION</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
+        <dt:Symbol language="de">%</dt:Symbol>
+        <dt:DimensionRef dt:GUID="d0c4026d-3f95-4e53-8d2e-a6a03ed19d8b"/>
+        <dt:Scale>LINEAR</dt:Scale>
+        <dt:Base>TEN</dt:Base>
+        <dt:Coefficient>1/1</dt:Coefficient>
+        <dt:Offset>0/1</dt:Offset>
+    </Unit>
+    <Unit dt:GUID="dff4a07e-ce49-4199-91a4-bfee3102f614" dateOfCreation="2026-05-21T10:29:45.763818">
+        <dt:Name language="de">°</dt:Name>
+        <dt:Definition language="de">TODO: PLACEHOLDER DEFINITION</dt:Definition>
+        <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
+        <dt:Symbol language="de">°</dt:Symbol>
+        <dt:DimensionRef dt:GUID="03e42178-5072-445b-8aaa-810582c7b1bc"/>
+        <dt:Scale>LINEAR</dt:Scale>
+        <dt:Base>TEN</dt:Base>
+        <dt:Coefficient>1/1</dt:Coefficient>
+        <dt:Offset>0/1</dt:Offset>
+    </Unit>
+</dt:Library>

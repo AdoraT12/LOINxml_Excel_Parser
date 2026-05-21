@@ -355,6 +355,58 @@ UNIT_LIBRARY = {
     )
 }
 
+def create_placeholder_unit(unit_name):
+
+    # avoid duplicates
+    if unit_name in UNIT_LIBRARY:
+        return UNIT_LIBRARY[unit_name]
+
+    # --------------------------------------------
+    # placeholder dimension
+    # --------------------------------------------
+
+    dim = Dimension(
+        name=f"{unit_name}_Dimension",
+        definition="TODO: PLACEHOLDER DEFINITION",
+        reference_uri="TODO: PLACEHOLDER URI",
+        exponents={
+            "Length": 0,
+            "Mass": 0,
+            "Time": 0,
+            "ElectricCurrent": 0,
+            "ThermodynamicTemperature": 0,
+            "AmountOfSubstance": 0,
+            "LuminousIntensity": 0
+        }
+    )
+
+    # --------------------------------------------
+    # placeholder quantity kind
+    # --------------------------------------------
+
+    qk = QuantityKind(
+        name=f"{unit_name}",
+        definition="TODO:PLACEHOLDER DEFINITION",
+        reference_uri="TODO: PLACEHOLDER URI",
+        dimension=dim
+    )
+
+    # --------------------------------------------
+    # placeholder unit
+    # --------------------------------------------
+
+    unit = Unit(
+        name=unit_name,
+        definition="TODO: PLACEHOLDER DEFINITION",
+        symbol=unit_name,
+        reference_uri="TODO: PLACEHOLDER URI",
+        quantity_kind=qk
+    )
+
+    UNIT_LIBRARY[unit_name] = unit
+
+    return unit
+
 # ============================================================
 # LOAD EXCEL
 # ============================================================
@@ -534,11 +586,9 @@ for _, row in df.iterrows():
 
         unit_name = str(unit_name).strip()
 
-        if unit_name in UNIT_LIBRARY:
+        unit_obj = create_placeholder_unit(unit_name)
 
-            unit_obj = UNIT_LIBRARY[unit_name]
-
-            global_units[unit_name] = unit_obj
+        global_units[unit_name] = unit_obj
 
     # --------------------------------------------------------
     # PROPERTY
@@ -691,7 +741,10 @@ geo_ref.set(DT + "GUID", new_guid())
 
 lib_root = etree.Element(
     DT + "Library",
-    nsmap=NSMAP
+    nsmap={
+        "loin": "https://iso.org/2024/LOIN",
+        "dt": "https://standards.iso.org/iso/23387/ed-2/en/"
+    }
 )
 
 lib_root.set(DT + "GUID", new_guid())

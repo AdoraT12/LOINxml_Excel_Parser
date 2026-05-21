@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <loin:LevelOfInformationNeed xmlns:loin="https://iso.org/2024/LOIN" xmlns:dt="https://standards.iso.org/iso/23387/ed-2/en/">
-    <Specification dt:GUID="c227b1f4-4d29-4011-803e-a1774885fad6" dateOfCreation="2026-05-21T02:24:54.054281">
-        <SpecificationPerObjectType dt:GUID="459834cb-5789-42ac-adaf-9b3ebd0f40aa" dateOfCreation="2026-05-21T02:24:54.054281">
+    <Specification dt:GUID="5f286f2d-d980-494e-a6da-3292e9e0b532" dateOfCreation="2026-05-21T10:29:45.763818">
+        <SpecificationPerObjectType dt:GUID="e37d0603-f7e4-4bc7-ad8d-bb2d09eac9ea" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für Einzelfundament</dt:Name>
-            <ObjectType dt:GUID="459834cb-5789-42ac-adaf-9b3ebd0f40aa" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="e37d0603-f7e4-4bc7-ad8d-bb2d09eac9ea" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">Einzelfundament</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="70d18f1a-3568-44f5-b9c0-233b75607338">
-                <Property dt:GUID="6b442bcd-c7d2-453d-b381-bb326c8187b7" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="db21b896-f335-4081-88e8-09474ab40dc9">
+                <Property dt:GUID="8810a70b-2e21-4a48-914d-b10f69abbfd5" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Tragendendes Bauteil</dt:Name>
                     <dt:Description language="de">Gibt an, ob das Objekt statisch tragend oder nicht tragend ist</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="7ca94631-9c59-4df0-be2e-a7166d6f6dc6"/>
-            <GeometricalInformation GUID="48598bce-d2b9-4696-8880-2fe2f699be23" placeholder="false"/>
+            <Documentation GUID="c854d558-4170-4ac8-9c96-413aaed6f7e1"/>
+            <GeometricalInformation GUID="b54eac6e-a9db-4459-8ba9-271967fce518" placeholder="false"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="681026d3-a786-4b42-ac85-67c07d780360" dateOfCreation="2026-05-21T02:24:54.054281">
+        <SpecificationPerObjectType dt:GUID="e417ab1b-e6f5-45e3-b7b9-d6886874d3c3" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für Tiefgründung</dt:Name>
-            <ObjectType dt:GUID="681026d3-a786-4b42-ac85-67c07d780360" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="e417ab1b-e6f5-45e3-b7b9-d6886874d3c3" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">Tiefgründung</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="b2a38ef0-ecbf-4df6-928f-e29b97bc7e35">
-                <Property dt:GUID="63829186-6223-488c-9126-76f389d2f60c" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="8fa6a3a2-5e9e-47d2-80cc-a719dbbe6f83">
+                <Property dt:GUID="f287a0b5-86db-4c28-8dd2-6fa0eeadfbd7" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Status</dt:Name>
                     <dt:Description language="de">Status des Elementes, das vorwiegend bei Renovierungs und Umbaumaßnahmen eines Gebäudes verwendet wird:
 Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden, als "Vorhanden" zugewiesen werden: Element existiert bereits und bleibt. </dt:Description>
@@ -37,22 +37,22 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="0ad5aa4d-1ee6-4eed-bf6c-9cf4483a68c4" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="03e23a7c-0d1c-4d7c-b58e-289727ee549f" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Tragendendes Bauteil</dt:Name>
                     <dt:Description language="de">Gibt an, ob das Objekt statisch tragend (TRUE) oder nicht tragend (FALSE) ist.</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="3c4dac64-8aa6-4b70-b8e8-251a3c53e046"/>
-            <GeometricalInformation GUID="5c88c493-42cb-4f2e-b883-3a54c4523271" placeholder="false"/>
+            <Documentation GUID="1d670330-8cee-4c63-a6f1-f25cf8a81500"/>
+            <GeometricalInformation GUID="c4a852b7-cd6f-4e38-81a2-6a1651ccfdb4" placeholder="false"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="beaafd89-6f3e-4ed3-aec6-4b2f61e79d9e" dateOfCreation="2026-05-21T02:24:54.054281">
+        <SpecificationPerObjectType dt:GUID="d36bf40b-5a4f-4e0e-85bb-5936a23ce39f" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für Wand</dt:Name>
-            <ObjectType dt:GUID="beaafd89-6f3e-4ed3-aec6-4b2f61e79d9e" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="d36bf40b-5a4f-4e0e-85bb-5936a23ce39f" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">Wand</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="db7f80d4-88d6-4d3d-aabe-c56ac5fe3306">
-                <Property dt:GUID="38c14809-8925-4fc8-9c50-1712cf21cfba" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="acbcf1e5-c06b-4579-8ef6-3f029561864c">
+                <Property dt:GUID="a367a0fa-8920-482c-87dc-84ca2cb74c74" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Feuerwiderstandsklasse</dt:Name>
                     <dt:Description language="de">Brandklassifizierung entsprechend der nationalen Brandschutzklassifizierung.</dt:Description>
                     <dt:DataType name="STRING">
@@ -67,12 +67,12 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="4bab13e8-14ca-45aa-805b-4e457cff7670" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="669e67ea-1e3a-4d4c-96ca-92b56bc8b004" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brennbar</dt:Name>
                     <dt:Description language="de">Angabe ob das Bauteil brennbares Material enthält oder nicht </dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
-                <Property dt:GUID="ab0518ae-4779-4d6c-b1e6-0aab6a27564b" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="686b3f40-964d-45db-8966-33a5b25d532b" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brandverhalten</dt:Name>
                     <dt:Description language="de">Beschreibung des Brandverhaltens des Bauteils gemäß der nationalen oder regionalen Brandschutzverordnung</dt:Description>
                     <dt:DataType name="STRING">
@@ -89,32 +89,33 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="60b5405d-368b-4c4c-bf53-448ff67fc3c7" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="49f52266-a370-491a-b662-21ac1a773bcc" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brandabschnittsdefinierend</dt:Name>
                     <dt:Description language="de">Angabe, ob dieses Bauteil einen Brandabschnitt begrenzt, oder nicht </dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
-                <Property dt:GUID="456ada35-eb82-4a69-aa2e-c377173edb5b" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="c6a2e8ff-0d61-44de-a084-a532824992a2" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Wärmeleitfähigkeit</dt:Name>
                     <dt:Description language="de">Wärmedurchgangskoeffizient (U-Wert) eines Materials. Der Gesamtwärmedurchgangskoeffizient durch die Wand (einschließlich aller Materialien).</dt:Description>
                     <dt:DataType name="REAL"/>
+                    <dt:UnitRef dt:GUID="d797cfa8-2d2a-4566-be09-c70b54d8d403" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
                 </Property>
-                <Property dt:GUID="47179fb1-b802-458f-a364-ceca52e5e364" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="28508dd4-db55-402b-85c8-3ff65c280a67" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Raumhohe Wand</dt:Name>
                     <dt:Description language="de">Angabe , ob diese Wand raumhoch ist , oder nicht</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="cd86d863-4586-484d-877c-3966df4db689"/>
-            <GeometricalInformation GUID="bd922492-985d-4049-9551-8c7f792d67a0" placeholder="false"/>
+            <Documentation GUID="c3d0ce48-0c00-4b8c-800c-a66e483087ee"/>
+            <GeometricalInformation GUID="2b9490a6-ae49-4ff6-b7a3-c9fd8da452d4" placeholder="false"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="d8bcff2a-18ab-418a-9ae4-415f650645db" dateOfCreation="2026-05-21T02:24:54.054281">
+        <SpecificationPerObjectType dt:GUID="94c50af2-dc3c-41b6-9ac7-d7e0edb2911b" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für Stütze</dt:Name>
-            <ObjectType dt:GUID="d8bcff2a-18ab-418a-9ae4-415f650645db" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="94c50af2-dc3c-41b6-9ac7-d7e0edb2911b" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">Stütze</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="b221ac9a-27c6-40a8-960b-4dc4892b008d">
-                <Property dt:GUID="f832d479-34ec-4224-a5fa-68dfc55bdc6c" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="b18e746a-c94d-41c2-91ad-a9899cdb0ee5">
+                <Property dt:GUID="c121cdf1-daa9-4226-bec1-c58c9940a307" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Feuerwiderstandsklasse</dt:Name>
                     <dt:Description language="de">Brandklassifizierung entsprechend der nationalen Brandschutzklassifizierung.</dt:Description>
                     <dt:DataType name="STRING">
@@ -130,16 +131,16 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="e3151230-37e1-4737-91c8-d107de4f54d9"/>
-            <GeometricalInformation GUID="1451d8d9-c186-43e8-b2b4-bd854a74b704" placeholder="false"/>
+            <Documentation GUID="5fd509a0-8603-4e53-9d5d-fe015e19552d"/>
+            <GeometricalInformation GUID="7f7bb2d4-12f0-444f-9506-675dabaf3981" placeholder="false"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="a89cb735-b07a-47f2-84ca-0f5b9c55f45c" dateOfCreation="2026-05-21T02:24:54.054281">
+        <SpecificationPerObjectType dt:GUID="166932bd-de07-44b6-babe-71c4038f0e18" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für (Vorhang-)Fassade</dt:Name>
-            <ObjectType dt:GUID="a89cb735-b07a-47f2-84ca-0f5b9c55f45c" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="166932bd-de07-44b6-babe-71c4038f0e18" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">(Vorhang-)Fassade</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="65629ad2-f8ea-4e91-ae5c-413ba984aefc">
-                <Property dt:GUID="925378c3-88a7-48ff-84e9-e050f5693390" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="f2b867b2-97da-4657-8a8a-b28f24aaadfd">
+                <Property dt:GUID="c4a41bce-9142-4b68-88b3-cc3ba7185592" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Feuerwiderstandsklasse</dt:Name>
                     <dt:Description language="de">Brandklassifizierung entsprechend der nationalen Brandschutzklassifizierung.</dt:Description>
                     <dt:DataType name="STRING">
@@ -154,12 +155,12 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="192b0beb-7204-4e7e-83d2-ce5a0a61acae" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="e4627f0a-0f0f-4525-8466-8d3d5feda8ef" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brennbar</dt:Name>
                     <dt:Description language="de">Angabe ob das Bauteil brennbares Material enthält (WAHR) oder nicht (FALSCH).</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
-                <Property dt:GUID="e099c1e1-2ba5-49e6-a8fd-4700f0d06c97" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="c0646771-f80f-4dc2-93ef-d9823edb44ed" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brandverhalten</dt:Name>
                     <dt:Description language="de">Beschreibung des Brandverhaltens des Bauteils gemäß der nationalen oder regionalen Brandschutzverordnung</dt:Description>
                     <dt:DataType name="STRING">
@@ -176,27 +177,28 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="af913c5f-9512-4bb8-a436-b8cfa002fdd7" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="f4492c0d-5ad2-4ae4-9033-532460b8486e" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Wärmeleitfähigkeit</dt:Name>
                     <dt:Description language="de">Wärmedurchgangskoeffizient (U-Wert) eines Materials. Der Gesamtwärmedurchgangskoeffizient durch die Wand (einschließlich aller Materialien).</dt:Description>
                     <dt:DataType name="REAL"/>
+                    <dt:UnitRef dt:GUID="d797cfa8-2d2a-4566-be09-c70b54d8d403" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="d69c3c96-eee3-4adc-9446-2c84dde69dd6"/>
-            <GeometricalInformation GUID="fa9f9c70-3cfd-455a-a962-6681c61f4f91" placeholder="false"/>
+            <Documentation GUID="c0a43f0f-8754-48e5-8e7a-e002ff5099c8"/>
+            <GeometricalInformation GUID="9b8db14c-0ce7-4dda-9411-f6e34fa7dfae" placeholder="false"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="6c24608e-37e7-411f-b520-af352e6fdb42" dateOfCreation="2026-05-21T02:24:54.054281">
+        <SpecificationPerObjectType dt:GUID="f3c8dc2a-5c62-4907-8802-24d39b90ab61" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für Decke</dt:Name>
-            <ObjectType dt:GUID="6c24608e-37e7-411f-b520-af352e6fdb42" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="f3c8dc2a-5c62-4907-8802-24d39b90ab61" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">Decke</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="7dc8e684-69d7-4675-a666-2fcd145d48e2">
-                <Property dt:GUID="bbb621ed-5da7-470d-bf02-3009491dd0c5" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="51bbf4a1-25f2-4d46-88a9-8a09512407c6">
+                <Property dt:GUID="776e4929-3bc4-4de2-bc12-94c323ca4da4" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Tragend</dt:Name>
                     <dt:Description language="de">Gibt an, ob das Objekt Lasten tragen soll (TRUE) oder nicht (FALSE).</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
-                <Property dt:GUID="c8e48276-b103-46f8-b6fe-0d6aa78f3852" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="74734e6e-09fc-4e3e-bdda-d5ecd75a60a2" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Feuerwiderstandsklasse</dt:Name>
                     <dt:Description language="de">Brandschutzklasse für dieses Objekt, die nach der nationalen Brandschutzklassifizierung vergeben wird.</dt:Description>
                     <dt:DataType name="STRING">
@@ -211,12 +213,12 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="4784ce49-56f8-4276-a0ff-4c43ca89571d" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="83f47aa8-7a34-4a0a-a7e2-94df09d420e8" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brennbar</dt:Name>
                     <dt:Description language="de">Angabe ob das Bauteil brennbares Material enthält (WAHR) oder nicht (FALSCH).</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
-                <Property dt:GUID="fd99dda9-05be-4a46-80ec-c6b4bc498e87" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="4e12a959-8655-4bfe-a26a-66eb68f34d00" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brandverhalten</dt:Name>
                     <dt:Description language="de">Beschreibung des Brandverhaltens des Bauteils gemäß der nationalen oder regionalen Brandschutzverordnung.</dt:Description>
                     <dt:DataType name="STRING">
@@ -233,27 +235,27 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="1ef86ee6-e301-454c-9033-7dfcd7572b66" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="2ed166f0-fd1b-4794-8a5c-80aade9abc70" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brandabschnittsdefinierend</dt:Name>
                     <dt:Description language="de">Angabe, ob dieses Bauteil einen Brandabschnitt begrenzt (WAHR), oder nicht (FALSCH).</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="23591ccd-2ba2-4f4d-8569-88d5a16a8257"/>
-            <GeometricalInformation GUID="c9b77f5c-7fb1-47da-8cb9-6111ebc17363" placeholder="false"/>
+            <Documentation GUID="95c97660-35c9-4653-9ae7-e095778957d3"/>
+            <GeometricalInformation GUID="491e33b9-315a-4a13-8c28-1832c0c16d18" placeholder="false"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="16977e6a-c239-4de5-9aac-d61585956c47" dateOfCreation="2026-05-21T02:24:54.054281">
+        <SpecificationPerObjectType dt:GUID="9f6b2c6a-c602-43b7-b720-0dfb62690226" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für Treppe</dt:Name>
-            <ObjectType dt:GUID="16977e6a-c239-4de5-9aac-d61585956c47" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="9f6b2c6a-c602-43b7-b720-0dfb62690226" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">Treppe</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="a0708486-6264-4b23-884e-8f77966a9791">
-                <Property dt:GUID="d00eb0c3-827b-4714-b7c7-366ce78be3ed" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="8ebd5e36-2b6c-4a85-abaa-c173d44f9584">
+                <Property dt:GUID="4b847274-b2bc-4d99-9a9f-d932c28dd127" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Tragend</dt:Name>
                     <dt:Description language="de">Angabe, ob dieses Bauteil tragend ist (JA) oder nichttragend (NEIN)</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
-                <Property dt:GUID="251594f3-ad13-4b80-a29e-6f396bdac146" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="e7c40bd1-8e1d-4b71-9585-6d1923393112" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Feuerwiderstandsklasse</dt:Name>
                     <dt:Description language="de">Die Brandklassifizierung für dieses Objekt. It entspricht der nationalen Brandschutzklassifizierung.</dt:Description>
                     <dt:DataType name="STRING">
@@ -268,28 +270,28 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="5974b5a1-949f-4935-8348-1360970dbfb6" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="8dfc84a2-adb0-4b31-aa73-a561f905bc88" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Erforderliche Durchgangshöhe</dt:Name>
                     <dt:Description language="de">Erforderliche Durchgangshöhe für den Durchgang entsprechend der geltenden Bauvorschriften oder zusätzlichen Anforderungen.</dt:Description>
                     <dt:DataType name="REAL"/>
-                    <dt:UnitRef dt:GUID="54c569ff-7f4a-4122-8211-1de3f33bc349" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
+                    <dt:UnitRef dt:GUID="5e2e0413-7ae0-4133-bef5-eda31194e0dc" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="7a36f92a-7a57-482c-aba4-4b73183c3cd6"/>
-            <GeometricalInformation GUID="321ac44d-f010-4406-a0f5-fefcb3829f87" placeholder="false"/>
+            <Documentation GUID="a6be6e1a-3467-4385-9e0c-328f47dbb845"/>
+            <GeometricalInformation GUID="1db4e434-b0aa-4929-a236-8fc614c85153" placeholder="false"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="cefb7d8a-a7c8-4884-8f3c-8ac5478fc91b" dateOfCreation="2026-05-21T02:24:54.054281">
+        <SpecificationPerObjectType dt:GUID="99b85b50-ac5c-4071-bd31-d47357d3c086" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für Rampe</dt:Name>
-            <ObjectType dt:GUID="cefb7d8a-a7c8-4884-8f3c-8ac5478fc91b" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="99b85b50-ac5c-4071-bd31-d47357d3c086" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">Rampe</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="6b48f541-aaa4-4166-92ec-4ca098e1e799">
-                <Property dt:GUID="8f1f2376-bda3-41b8-b136-2eb352832f72" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="36267975-e14d-4bd9-9e4f-71420691390b">
+                <Property dt:GUID="0052ff9d-aa7e-49a9-add4-44d0c0feac5a" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Tragend</dt:Name>
                     <dt:Description language="de">Angabe, ob dieses Bauteil tragend ist (JA) oder nichttragend (NEIN)</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
-                <Property dt:GUID="2f5fddb7-6ac7-4ba9-9726-297ade3136f4" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="34817dab-f2da-4e91-afba-ab05f741eec8" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Feuerwiderstandsklasse</dt:Name>
                     <dt:Description language="de">Die Brandklassifizierung für dieses Objekt. It entspricht der nationalen Brandschutzklassifizierung.</dt:Description>
                     <dt:DataType name="STRING">
@@ -304,33 +306,34 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="082f6321-5d6a-443b-9cbb-7298ce67b9d1" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="4f7f148b-fdb1-4fdc-b1c3-9242e7bab657" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Neigung</dt:Name>
                     <dt:Description language="de">nan</dt:Description>
                     <dt:DataType name="REAL"/>
+                    <dt:UnitRef dt:GUID="30cd9d1f-63ec-4655-88dd-e2d29fe10aa5" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
                 </Property>
-                <Property dt:GUID="8f2d225d-3fae-4d66-b82f-9e4eb6e93050" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="1dfe5190-63f2-4596-bf98-f7d3262dc304" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Durchmesser</dt:Name>
                     <dt:Description language="de">nan</dt:Description>
                     <dt:DataType name="REAL"/>
-                    <dt:UnitRef dt:GUID="54c569ff-7f4a-4122-8211-1de3f33bc349" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
+                    <dt:UnitRef dt:GUID="5e2e0413-7ae0-4133-bef5-eda31194e0dc" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
                 </Property>
-                <Property dt:GUID="14bdc48d-d944-4125-a0a6-9e7872e5c0df" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="8c92fe12-a4bb-471b-8e91-865e9597cd77" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Rutschfest</dt:Name>
                     <dt:Description language="de">Angabe, ob die Oberflächengüte so ausgelegt ist, dass sie rutschfest ist (TRUE) oder nicht (FALSE).</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="f1f9f32c-81d6-4820-a77b-f45e165d93ec"/>
-            <GeometricalInformation GUID="071b5853-3aab-462f-a4c2-e41fe65da652" placeholder="false"/>
+            <Documentation GUID="1c01439f-9e7c-47ad-93a5-cca70ec65d7f"/>
+            <GeometricalInformation GUID="16cd1d8a-9555-4a20-a80f-bdeeaaaae364" placeholder="false"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="6f878e77-673f-42c9-822b-fd554b94837d" dateOfCreation="2026-05-21T02:24:54.054281">
+        <SpecificationPerObjectType dt:GUID="89697438-eddf-46a6-a29b-a54773194418" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für Bodenbelag</dt:Name>
-            <ObjectType dt:GUID="6f878e77-673f-42c9-822b-fd554b94837d" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="89697438-eddf-46a6-a29b-a54773194418" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">Bodenbelag</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="7cb36c74-1236-414e-b550-ad22e4df4fec">
-                <Property dt:GUID="13579ca0-2f7b-4f98-bfd0-6c8b9213e161" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="3190bc6f-e5c2-474b-9604-c3e5a3789591">
+                <Property dt:GUID="1504a55c-a668-41e2-bb48-45bd5288326e" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Umbaukategorie</dt:Name>
                     <dt:Description language="de">Status des Elementes, das vorwiegend bei Renovierungs und Umbaumaßnahmen eines Gebäudes verwendet wird: Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden, als "Vorhanden" zugewiesen werden: Element existiert bereits und bleibt. </dt:Description>
                     <dt:DataType name="STRING">
@@ -344,7 +347,7 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="5a2e92ae-7d8f-43f0-9ae3-1d9f3ec742c2" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="e3bc1291-1e69-4a3f-acf2-5ae6b5153e26" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Feuerwiderstandsklasse</dt:Name>
                     <dt:Description language="de">Die Brandklassifizierung für dieses Objekt. It entspricht der nationalen Brandschutzklassifizierung.</dt:Description>
                     <dt:DataType name="STRING">
@@ -359,12 +362,12 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="051707b3-01d3-41fc-b197-071a15127bcd" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="d62376fc-a4b3-40f6-89b8-4453b6fcb684" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brennbar</dt:Name>
                     <dt:Description language="de">Angabe ob das Bauteil brennbares Material enthält (WAHR) oder nicht (FALSCH).</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
-                <Property dt:GUID="590b175d-145d-4422-9076-23485750bd21" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="268aa0a2-fcb3-45f7-aee5-acc015628ab8" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brandverhalten</dt:Name>
                     <dt:Description language="de">Beschreibung des Brandverhaltens des Bauteils gemäß der nationalen oder regionalen Brandschutzverordnung.</dt:Description>
                     <dt:DataType name="STRING">
@@ -382,16 +385,16 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="16ba4dec-3d5e-4426-9f24-72d243416788"/>
-            <GeometricalInformation GUID="cefbdd7b-cedc-4802-a932-ac8ba92c81e9" placeholder="false"/>
+            <Documentation GUID="427f5e07-9b80-40f9-aed0-552fd30a6d15"/>
+            <GeometricalInformation GUID="d8fa167c-8835-4c9a-9496-76df01f0cfed" placeholder="false"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="1a080ec3-5b7e-4b79-9f06-7712a0792115" dateOfCreation="2026-05-21T02:24:54.054281">
+        <SpecificationPerObjectType dt:GUID="e645bafd-bf7d-4feb-80ed-c48269bd190a" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für Träger (Unterzug)</dt:Name>
-            <ObjectType dt:GUID="1a080ec3-5b7e-4b79-9f06-7712a0792115" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="e645bafd-bf7d-4feb-80ed-c48269bd190a" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">Träger (Unterzug)</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="3b7e1a0d-b264-4cc4-846d-744eb3377bdf">
-                <Property dt:GUID="3488b288-a6d3-4f91-ad28-1646c2777e35" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="6765013d-c3c1-4eed-885c-995b5357694d">
+                <Property dt:GUID="a84c4203-0f49-4732-b46c-04c5bd2afed8" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Umbaukategorie</dt:Name>
                     <dt:Description language="de">Status des Elementes, das vorwiegend bei Renovierungs und Umbaumaßnahmen eines Gebäudes verwendet wird: Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden, als "Vorhanden" zugewiesen werden: Element existiert bereits und bleibt. </dt:Description>
                     <dt:DataType name="STRING">
@@ -405,12 +408,12 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="ba091edc-6400-45f0-84a9-26800e4705e0" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="c0c91dd3-05ca-4f0d-b075-22ef6693e62a" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Tragend</dt:Name>
                     <dt:Description language="de">Gibt an, ob das Objekt Lasten aufnehmen soll (TRUE) oder nicht (FALSE)</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
-                <Property dt:GUID="f2b587bb-2af1-4895-9a41-b76a1776161c" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="c98dd70b-5772-4f59-97c8-da4d13c75ca2" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Feuerwiderstandsklasse</dt:Name>
                     <dt:Description language="de">Die Brandklassifizierung für dieses Objekt. It entspricht der nationalen Brandschutzklassifizierung.</dt:Description>
                     <dt:DataType name="STRING">
@@ -425,28 +428,30 @@ Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="86ca90d6-7ff9-46a4-93e9-160c15dcc98e" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="f6c2ad36-7389-4fad-bd82-d0b4a61ebfac" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Neigung</dt:Name>
                     <dt:Description language="de">Neigungswinkel des Balkens relative zur Horizontalen (0 Grad).Dieser Parameter wird zusätzlich zur geometrischen Repräsentation bereitgestellt. Im
 Fall der Inkonsistenz zwischen dem Parameter und der Geometrie hat die geometrische Repräsention Priorität.</dt:Description>
                     <dt:DataType name="REAL"/>
+                    <dt:UnitRef dt:GUID="dff4a07e-ce49-4199-91a4-bfee3102f614" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
                 </Property>
-                <Property dt:GUID="82c877c4-aa0f-4a81-b7ef-959c47e49359" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="6dc2938f-0464-4fcb-8490-6d2a4a80347a" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Drehwinkel</dt:Name>
                     <dt:Description language="de">Kippwinkel des Balkens relative zur Vertikalen (O Grad).Dieser Parameter wird zusätzlich zur geometrischen Repräsentation bereitgestellt. Im Fall der Inkonsistenz zwischen dem Parameter und der Geometrie hat die geometrische Repräsention Priorität.</dt:Description>
                     <dt:DataType name="REAL"/>
+                    <dt:UnitRef dt:GUID="dff4a07e-ce49-4199-91a4-bfee3102f614" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="5a2d09eb-dd62-422e-91ca-80259dfddf5f"/>
-            <GeometricalInformation GUID="0e1c0ea7-5fe7-44c8-a251-66c60d008b10" placeholder="false"/>
+            <Documentation GUID="338db54a-8f58-4a82-b8e3-da090edad0f8"/>
+            <GeometricalInformation GUID="c44452b8-66d2-4afe-972d-09ef2c4ba4bc" placeholder="false"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="785e1ab2-a52b-4f61-9b46-616bdc71d632" dateOfCreation="2026-05-21T02:24:54.054281">
+        <SpecificationPerObjectType dt:GUID="dd37bd1a-2883-4be5-afb1-75c443986a9f" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für Stab</dt:Name>
-            <ObjectType dt:GUID="785e1ab2-a52b-4f61-9b46-616bdc71d632" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="dd37bd1a-2883-4be5-afb1-75c443986a9f" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">Stab</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="546ef810-c8a5-4332-afb5-ab5f5deb05a0">
-                <Property dt:GUID="5361975c-3018-4475-a149-344513defc21" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="0cbad3a4-279c-4da4-9fa1-fe9717ff448d">
+                <Property dt:GUID="8d0d989b-ed2f-4467-a3d9-85a443ad9f8b" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Umbaukategorie</dt:Name>
                     <dt:Description language="de">Status bzw. Phase des Bauteils insbesondere beim Bauen im Bestand. "Neu" (new) neues Bauteil als Ergänzung, "Bestand" (existing) bestehendes Bauteil, dass erhalten bleibt, "Abbruch" (demolish) Bauteil, das abgebrochen wird, "Temporär" (temporary) Bauteil und andere Bauelemente, die vorübergehend eingebaut werden (wie Abstützungen, etc.)</dt:Description>
                     <dt:DataType name="STRING">
@@ -460,12 +465,12 @@ Fall der Inkonsistenz zwischen dem Parameter und der Geometrie hat die geometris
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="cb52d994-3bcf-49d8-baa2-98d7c35f3f23" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="d2ab4bfc-0f02-4db8-b7d3-139dc3b75dd9" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Tragend</dt:Name>
                     <dt:Description language="de">Angabe, ob dieses Bauteil tragend ist (JA) oder nichttragend (NEIN)</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
-                <Property dt:GUID="b08120ae-0932-4a96-aa56-ededae05927c" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="7e8bc096-c21d-4513-bde8-d30a0c488a56" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Feuerwiderstandsklasse</dt:Name>
                     <dt:Description language="de">Feuerwiderstandasklasse gemäß der nationalen oder regionalen Brandschutzverordnung.</dt:Description>
                     <dt:DataType name="STRING">
@@ -480,33 +485,35 @@ Fall der Inkonsistenz zwischen dem Parameter und der Geometrie hat die geometris
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="a911d322-0277-4546-871b-ce316ac4cfb4" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="8ff3f449-538d-4a5e-83de-1fde77090d60" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Neigung</dt:Name>
                     <dt:Description language="de">Neigungswinkel des Stabs relative zur Horizontalen (0 Grad).</dt:Description>
                     <dt:DataType name="REAL"/>
+                    <dt:UnitRef dt:GUID="dff4a07e-ce49-4199-91a4-bfee3102f614" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
                 </Property>
-                <Property dt:GUID="3312d9c2-cd67-4baf-8416-cf3f3fa8f882" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="d62c52ae-b216-41f1-a08e-44f4d444d8d1" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Spannweite</dt:Name>
                     <dt:Description language="de">Lichte Spannweite des Stabs für die statische Anforderung. </dt:Description>
                     <dt:DataType name="REAL"/>
-                    <dt:UnitRef dt:GUID="54c569ff-7f4a-4122-8211-1de3f33bc349" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
+                    <dt:UnitRef dt:GUID="5e2e0413-7ae0-4133-bef5-eda31194e0dc" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
                 </Property>
-                <Property dt:GUID="816e0759-3491-488d-98e1-7913f6253069" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="dbc72e4a-0291-4264-a2ef-a18efa35b19b" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Drehwinkel</dt:Name>
                     <dt:Description language="de">Kippwinkel des Stabs relative zur Vertikalen (O Grad).</dt:Description>
                     <dt:DataType name="REAL"/>
+                    <dt:UnitRef dt:GUID="dff4a07e-ce49-4199-91a4-bfee3102f614" dt:referenceURI="file:units_quantities_dimensions_test.xml"/>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="c5df19a6-45b8-4a55-b599-8ba87d9d5da9"/>
-            <GeometricalInformation GUID="8dba824c-2abf-4cc2-940b-d56bd43fe748" placeholder="false"/>
+            <Documentation GUID="e8944051-bc34-4bdd-873f-a1f93021b885"/>
+            <GeometricalInformation GUID="b3b1dc36-adf7-4a7b-8f53-da3e0a9ec7d2" placeholder="false"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="6a1197bc-8411-482a-926c-e9e068fa67ac" dateOfCreation="2026-05-21T02:24:54.054281">
+        <SpecificationPerObjectType dt:GUID="197eb09b-d032-408e-ad30-3f353315a59b" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für Dach</dt:Name>
-            <ObjectType dt:GUID="6a1197bc-8411-482a-926c-e9e068fa67ac" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="197eb09b-d032-408e-ad30-3f353315a59b" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">Dach</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="941d6b1c-60a1-40eb-8928-c38b896b1710">
-                <Property dt:GUID="78a2156b-347d-4685-bd3d-ea3f67ccfcf2" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="051f52e2-03be-4fb1-adad-00ac3975f3a1">
+                <Property dt:GUID="0c08080a-7338-4654-9758-b9c8ae40a89e" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Umbaukategorie</dt:Name>
                     <dt:Description language="de">Status bzw. Phase des Bauteils insbesondere beim Bauen im Bestand. "Neu" (new) neues Bauteil als Ergänzung, "Bestand" (existing) bestehendes Bauteil, dass erhalten bleibt, "Abbruch" (demolish) Bauteil, das abgebrochen wird, "Temporär" (temporary) Bauteil und andere Bauelemente, die vorübergehend eingebaut werden (wie Abstützungen, etc.)</dt:Description>
                     <dt:DataType name="STRING">
@@ -520,7 +527,7 @@ Fall der Inkonsistenz zwischen dem Parameter und der Geometrie hat die geometris
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="e1d10762-f963-4e01-9be1-cb7a1280092d" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="f830ffae-9f85-41f5-a295-47cacfe8ef5e" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Feuerwiderstandsklasse</dt:Name>
                     <dt:Description language="de">Feuerwiderstandasklasse gemäß der nationalen oder regionalen Brandschutzverordnung.</dt:Description>
                     <dt:DataType name="STRING">
@@ -535,12 +542,12 @@ Fall der Inkonsistenz zwischen dem Parameter und der Geometrie hat die geometris
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="09dae360-b471-469d-98a1-de351a6d3c9d" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="26931a79-1836-4b5e-b8af-3a0d30c462ad" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brennbar</dt:Name>
                     <dt:Description language="de">nan</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
-                <Property dt:GUID="a8345504-52f5-49b4-8237-503b5c236cf1" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="556b56e3-f25e-4c82-a85d-9576fce2442c" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brandverhalten</dt:Name>
                     <dt:Description language="de">nan</dt:Description>
                     <dt:DataType name="STRING">
@@ -557,22 +564,22 @@ Fall der Inkonsistenz zwischen dem Parameter und der Geometrie hat die geometris
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="df52422b-35dc-42cd-b41d-b46cfbb11345" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="f714031f-8027-44b9-a1a3-aa8a45837299" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Brandabschnittsdefinierend</dt:Name>
                     <dt:Description language="de">nan</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="5ab2a851-5ed2-47a3-97d5-ff3f003bdc46"/>
-            <GeometricalInformation GUID="670c9269-d530-4627-9dc7-17402ab63b84" placeholder="false"/>
+            <Documentation GUID="aea218fc-dcee-4f2c-801d-c90cb963712e"/>
+            <GeometricalInformation GUID="080ff6ee-aaef-4efe-946e-1ae80a0aa4a4" placeholder="false"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="a7261ad3-deca-40ba-8e88-b74f48624494" dateOfCreation="2026-05-21T02:24:54.054281">
+        <SpecificationPerObjectType dt:GUID="14df9b5b-8af4-4552-90ae-013141c31318" dateOfCreation="2026-05-21T10:29:45.763818">
             <dt:Name language="de">Spezifikation für Schornstein</dt:Name>
-            <ObjectType dt:GUID="a7261ad3-deca-40ba-8e88-b74f48624494" dateOfCreation="2026-05-21T02:24:54.054281">
+            <ObjectType dt:GUID="14df9b5b-8af4-4552-90ae-013141c31318" dateOfCreation="2026-05-21T10:29:45.763818">
                 <dt:Name language="de">Schornstein</dt:Name>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="1b7d3daf-7ce7-4aa7-96ee-16e9212a9d40">
-                <Property dt:GUID="bcdde324-0cc8-4d87-aead-4879a6622edf" dateOfCreation="2026-05-21T02:24:54.054281">
+            <AlphanumericalInformation dt:GUID="2d1e20b8-cfb0-4c1a-a30a-0cecc56e67fc">
+                <Property dt:GUID="2e9ea555-1ccb-40c1-8f9d-5031e332d348" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Umbaukategorie</dt:Name>
                     <dt:Description language="de">Status des Elementes, das vorwiegend bei Renovierungs und Umbaumaßnahmen eines Gebäudes verwendet wird: Der Status kann als "Neu" zugewiesen werden: das Element ist hinzugefügt worden, als "Vorhanden" zugewiesen werden: Element existiert bereits und bleibt. </dt:Description>
                     <dt:DataType name="STRING">
@@ -586,12 +593,12 @@ Fall der Inkonsistenz zwischen dem Parameter und der Geometrie hat die geometris
                         </dt:PossibleValues>
                     </dt:DataType>
                 </Property>
-                <Property dt:GUID="26103002-33c8-4b89-85e8-405c2d23f963" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="ecddcbf8-8483-408d-ab93-a490f93cd1e7" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Tragend</dt:Name>
                     <dt:Description language="de">Gibt an, ob das Objekt Lasten tragen soll (TRUE) oder nicht (FALSE).</dt:Description>
                     <dt:DataType name="BOOLEAN"/>
                 </Property>
-                <Property dt:GUID="d6989fc3-bf09-413c-9715-79ef87bf94ae" dateOfCreation="2026-05-21T02:24:54.054281">
+                <Property dt:GUID="56be15f9-3711-4525-9913-21d7ec15aa68" dateOfCreation="2026-05-21T10:29:45.763818">
                     <dt:Name language="de">Feuerwiderstandsklasse</dt:Name>
                     <dt:Description language="de">Brandklassifizierung für das Element, die nach der nationalen Brandschutzklassifizierung vergeben wird.</dt:Description>
                     <dt:DataType name="STRING">
@@ -607,9 +614,9 @@ Fall der Inkonsistenz zwischen dem Parameter und der Geometrie hat die geometris
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation GUID="e4adbc19-e0fe-4872-9161-82d4f48469d6"/>
-            <GeometricalInformation GUID="1ef53da4-2f2f-4e09-9ef6-a0030da4c97e" placeholder="false"/>
+            <Documentation GUID="c5d0aed2-f7b9-4be5-ba32-8d436fec8913"/>
+            <GeometricalInformation GUID="439ffc8d-413b-4daa-a8ea-5383534a4ef6" placeholder="false"/>
         </SpecificationPerObjectType>
-        <GeoReferencing dt:GUID="598dd7c0-0c91-4693-810a-818f31c98f2f"/>
+        <GeoReferencing dt:GUID="0ea60a1e-f564-4c4c-a801-e8938b14281e"/>
     </Specification>
 </loin:LevelOfInformationNeed>
