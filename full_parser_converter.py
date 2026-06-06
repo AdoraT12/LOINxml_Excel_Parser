@@ -18,6 +18,8 @@ UNITS_OUTPUT_XML = "units_quantities_dimensions_test.xml"
 USE_EXTERNAL_UNITS_LIBRARY = True
 UNITS_LIBRARY_URI = f"file:{UNITS_OUTPUT_XML}"
 
+LANGUAGE= "de"
+
 # ============================================================
 # FILTERS
 # ============================================================
@@ -82,12 +84,13 @@ def new_guid():
 def now():
     return datetime.now().isoformat()
 
-def create_multilang(parent, tag, text, lang="de"):
+def create_multilang(parent, tag, text, lang=None):
+
+    if lang is None:
+        lang = LANGUAGE
 
     el = etree.SubElement(parent, tag)
-
     el.text = "" if text is None else str(text)
-
     el.set("language", lang)
 
     return el
@@ -558,7 +561,11 @@ for _, row in df.iterrows():
         row.get(DATATYPE_COL)
     )
 
-    description = row.get(DESCRIPTION_COL)
+    description = (
+        None
+        if pd.isna(row.get(DESCRIPTION_COL))
+        else str(row.get(DESCRIPTION_COL)).strip()
+    )
 
     possible_values = []
 
@@ -703,7 +710,7 @@ for obj_name in object_order:
 
                 pv = etree.SubElement(dtype, DT + "PossibleValues")
                 vl = etree.SubElement(pv, DT + "ValueList")
-                vl.set("language", "de")
+                vl.set("language", LANGUAGE)
 
                 for i, v in enumerate(prop.possible_values, 1):
 
@@ -753,7 +760,7 @@ create_multilang(
     lib_root,
     DT + "Name",
     "Units Quantities Dimensions Library",
-    lang="en"
+    lang=LANGUAGE
 )
 
 # ============================================================
@@ -771,49 +778,19 @@ for unit in global_units.values():
 
     written_qk.add(qk.guid)
 
-    qk_el = etree.SubElement(
-        lib_root,
-        "QuantityKind"
-    )
+    qk_el = etree.SubElement(lib_root, "QuantityKind")
 
     qk_el.set(DT + "GUID", qk.guid)
+    qk_el.set("dateOfCreation", now())
 
-    qk_el.set(
-        "dateOfCreation",
-        now()
-    )
+    create_multilang(qk_el, DT + "Name", qk.name)
+    create_multilang(qk_el, DT + "Definition", qk.definition)
 
-    create_multilang(
-        qk_el,
-        DT + "Name",
-        qk.name
-    )
+    ref = etree.SubElement(qk_el, DT + "ReferenceDocumentRef")
+    ref.set(DT + "referenceURI", qk.reference_uri)
 
-    create_multilang(
-        qk_el,
-        DT + "Definition",
-        qk.definition
-    )
-
-    ref = etree.SubElement(
-        qk_el,
-        DT + "ReferenceDocumentRef"
-    )
-
-    ref.set(
-        DT + "referenceURI",
-        qk.reference_uri
-    )
-
-    dim_ref = etree.SubElement(
-        qk_el,
-        DT + "DimensionRef"
-    )
-
-    dim_ref.set(
-        DT + "GUID",
-        qk.dimension.guid
-    )
+    dim_ref = etree.SubElement(qk_el, DT + "DimensionRef")
+    dim_ref.set(DT + "GUID", qk.dimension.guid)
 
 # ============================================================
 # GLOBAL DIMENSIONS
@@ -830,74 +807,23 @@ for unit in global_units.values():
 
     written_dimensions.add(dim.guid)
 
-    dim_el = etree.SubElement(
-        lib_root,
-        "Dimension"
-    )
+    dim_el = etree.SubElement(lib_root, "Dimension")
 
     dim_el.set(DT + "GUID", dim.guid)
+    dim_el.set("dateOfCreation", now())
 
-    dim_el.set(
-        "dateOfCreation",
-        now()
-    )
+    create_multilang(dim_el, DT + "Name", dim.name)
+    create_multilang(dim_el, DT + "Definition", dim.definition)
 
-    create_multilang(
-        dim_el,
-        DT + "Name",
-        dim.name
-    )
+    ref = etree.SubElement(dim_el, DT + "ReferenceDocumentRef")
+    ref.set(DT + "referenceURI", dim.reference_uri)
 
-    create_multilang(
-        dim_el,
-        DT + "Definition",
-        dim.definition
-    )
+    for exponent_name, value in dim.exponents.items():
 
-    ref = etree.SubElement(
-        dim_el,
-        DT + "ReferenceDocumentRef"
-    )
-
-    ref.set(
-        DT + "referenceURI",
-        dim.reference_uri
-    )
-
-    etree.SubElement(
-        dim_el,
-        DT + "DimensionExponentForAmountOfSubstance"
-    ).text = str(dim.exponents["AmountOfSubstance"])
-
-    etree.SubElement(
-        dim_el,
-        DT + "DimensionExponentForElectricCurrent"
-    ).text = str(dim.exponents["ElectricCurrent"])
-
-    etree.SubElement(
-        dim_el,
-        DT + "DimensionExponentForLength"
-    ).text = str(dim.exponents["Length"])
-
-    etree.SubElement(
-        dim_el,
-        DT + "DimensionExponentForLuminousIntensity"
-    ).text = str(dim.exponents["LuminousIntensity"])
-
-    etree.SubElement(
-        dim_el,
-        DT + "DimensionExponentForMass"
-    ).text = str(dim.exponents["Mass"])
-
-    etree.SubElement(
-        dim_el,
-        DT + "DimensionExponentForThermodynamicTemperature"
-    ).text = str(dim.exponents["ThermodynamicTemperature"])
-
-    etree.SubElement(
-        dim_el,
-        DT + "DimensionExponentForTime"
-    ).text = str(dim.exponents["Time"])
+        etree.SubElement(
+            dim_el,
+            DT + f"DimensionExponentFor{exponent_name}"
+        ).text = str(value)
 
 # ============================================================
 # GLOBAL UNITS
@@ -905,75 +831,25 @@ for unit in global_units.values():
 
 for unit in global_units.values():
 
-    unit_el = etree.SubElement(
-        lib_root,
-        "Unit"
-    )
+    unit_el = etree.SubElement(lib_root, "Unit")
 
     unit_el.set(DT + "GUID", unit.guid)
+    unit_el.set("dateOfCreation", now())
 
-    unit_el.set(
-        "dateOfCreation",
-        now()
-    )
+    create_multilang(unit_el, DT + "Name", unit.name)
+    create_multilang(unit_el, DT + "Definition", unit.definition)
+    create_multilang(unit_el, DT + "Symbol", unit.symbol)
 
-    create_multilang(
-        unit_el,
-        DT + "Name",
-        unit.name
-    )
+    ref = etree.SubElement(unit_el, DT + "ReferenceDocumentRef")
+    ref.set(DT + "referenceURI", unit.reference_uri)
 
-    create_multilang(
-        unit_el,
-        DT + "Definition",
-        unit.definition
-    )
+    dim_ref = etree.SubElement(unit_el, DT + "DimensionRef")
+    dim_ref.set(DT + "GUID", unit.quantity_kind.dimension.guid)
 
-    ref = etree.SubElement(
-        unit_el,
-        DT + "ReferenceDocumentRef"
-    )
-
-    ref.set(
-        DT + "referenceURI",
-        unit.reference_uri
-    )
-
-    create_multilang(
-        unit_el,
-        DT + "Symbol",
-        unit.symbol
-    )
-
-    dim_ref = etree.SubElement(
-        unit_el,
-        DT + "DimensionRef"
-    )
-
-    dim_ref.set(
-        DT + "GUID",
-        unit.quantity_kind.dimension.guid
-    )
-
-    etree.SubElement(
-        unit_el,
-        DT + "Scale"
-    ).text = unit.scale
-
-    etree.SubElement(
-        unit_el,
-        DT + "Base"
-    ).text = unit.base
-
-    etree.SubElement(
-        unit_el,
-        DT + "Coefficient"
-    ).text = unit.coefficient
-
-    etree.SubElement(
-        unit_el,
-        DT + "Offset"
-    ).text = unit.offset
+    etree.SubElement(unit_el, DT + "Scale").text = unit.scale
+    etree.SubElement(unit_el, DT + "Base").text = unit.base
+    etree.SubElement(unit_el, DT + "Coefficient").text = unit.coefficient
+    etree.SubElement(unit_el, DT + "Offset").text = unit.offset
 
 # ============================================================
 # SAVE XML
