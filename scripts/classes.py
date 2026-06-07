@@ -47,6 +47,8 @@ class Property:
     description: str
     datatype: str
 
+    property_set: str | None = None
+
     possible_values: list[str] = field(default_factory=list)
     unit: Unit | None = None
 
@@ -55,10 +57,12 @@ class Property:
 
 @dataclass
 class ObjectType:
-
+    
     name: str
-
     parent: "ObjectType | None" = None
     properties: list["Property"] = field(default_factory=list)
-
+    
     guid: str = field(default_factory=new_guid)
+    
+    dictionary_ref_uri: str = "TODO: Fill out or delete dictionary reference"
+    dictionary_ref_guid: str = field(default_factory=new_guid)

@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <loin:LevelOfInformationNeed xmlns:loin="https://iso.org/2024/LOIN" xmlns:dt="https://standards.iso.org/iso/23387/ed-2/en/">
-    <Specification dt:GUID="44b4a8a4-7635-4ffc-aa18-f5a26517ca96" dateOfCreation="2026-06-07T16:21:17.474147">
-        <SpecificationPerObjectType dt:GUID="7477ff2b-d36e-4f1b-bb07-fb308952768b" dateOfCreation="2026-06-07T16:21:17.474147">
+    <Specification dt:GUID="ac6f77c9-c87d-4fe5-b484-8c80e95eca35" dateOfCreation="2026-06-07T18:12:45.977920">
+        <SpecificationPerObjectType dt:GUID="0c774d45-fa71-4273-a340-690b354710f8" dateOfCreation="2026-06-07T18:12:45.977920">
             <dt:Name language="de">Spezifikation für Oberboden</dt:Name>
-            <ObjectType dt:GUID="7477ff2b-d36e-4f1b-bb07-fb308952768b" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="0c774d45-fa71-4273-a340-690b354710f8" dateOfCreation="2026-06-07T18:12:45.977920">
                 <dt:Name language="de">Oberboden</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="08defc4d-8520-4bc7-97ba-f7179c802644"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="2bc1bad2-fdb2-49b9-ba4e-458a9946d12f">
-                <Property dt:GUID="ce2730a8-6179-44bf-a83e-7a8811507f83" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="70b25e1f-9326-4cd1-a839-830cde79f2ef">
+                <Property dt:GUID="998715ae-b85e-44c2-b766-085de71bfd12" dateOfCreation="2026-06-07T18:12:45.977920">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -19,16 +20,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="65b3e237-29fd-431d-a27c-e92ebe45d108"/>
-            <GeometricalInformation dt:GUID="5431f64f-3074-4958-91ce-1832bd1fdf28" placeholder="true"/>
+            <Documentation dt:GUID="d664c5c5-03f7-416e-a6e7-a2fdd5c15490"/>
+            <GeometricalInformation dt:GUID="4df4e296-ef60-4f62-b75b-c6e25a12d2f6" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="efb604ec-57da-4569-9d72-1d604361d476" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="f9a0941d-c059-4b1e-97ce-1ce2c58a6c25" dateOfCreation="2026-06-07T18:12:45.977920">
             <dt:Name language="de">Spezifikation für Wege</dt:Name>
-            <ObjectType dt:GUID="efb604ec-57da-4569-9d72-1d604361d476" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="f9a0941d-c059-4b1e-97ce-1ce2c58a6c25" dateOfCreation="2026-06-07T18:12:45.977920">
                 <dt:Name language="de">Wege</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="9f87eece-077d-4943-b819-40649e06f1b5"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="4599ac7e-c402-44b6-a008-f4a808f90654">
-                <Property dt:GUID="9c71b76a-fde6-432a-a6e0-ff5cac4b3661" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="288cf272-a602-490e-99a5-500a2921e66f">
+                <Property dt:GUID="d4a3a36f-3714-40d0-8257-13c7d40d2197" dateOfCreation="2026-06-07T18:12:45.977920">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -40,16 +42,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="b6743525-d5ac-44f1-aedc-a2cedf4bdb5a"/>
-            <GeometricalInformation dt:GUID="ed4cfe6b-4ab0-463b-a1e7-fcce20d8ac6f" placeholder="true"/>
+            <Documentation dt:GUID="045a0294-8f73-4c7f-b3ff-63d3135913d8"/>
+            <GeometricalInformation dt:GUID="57ab9c7e-2377-4586-b7e7-dcb0c1e414e6" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="f3ef476e-24c1-4b79-8b6a-d207be8f6313" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="a1501e82-ed1c-4bc8-a2f6-25218b034d44" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Straßen</dt:Name>
-            <ObjectType dt:GUID="f3ef476e-24c1-4b79-8b6a-d207be8f6313" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="a1501e82-ed1c-4bc8-a2f6-25218b034d44" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Straßen</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="6a4e5c1a-6425-48d5-addd-676c4d088045"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="d960adb8-5bba-41b9-9cd2-982e23563db8">
-                <Property dt:GUID="8745c9cf-5901-4612-925e-0757432d82fd" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="2577ec27-91f0-4903-84a9-3242af92163e">
+                <Property dt:GUID="347f1c7b-d408-41bf-80a0-9558a0596d03" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -61,16 +64,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="9b3e6640-531d-499d-84d2-70e5d1e87c9a"/>
-            <GeometricalInformation dt:GUID="c0962f3e-db6b-40af-9329-9b16fab6e574" placeholder="true"/>
+            <Documentation dt:GUID="1c889180-8b77-45cb-ab27-ec5dfbee6211"/>
+            <GeometricalInformation dt:GUID="3af5c2a5-d69d-4053-b8e8-8b6ec07a832c" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="0d260c4a-df8e-4fa7-b29d-b80928182636" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="3206a728-3bdf-404f-bd51-c487574c634d" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Plätze/ Höfe</dt:Name>
-            <ObjectType dt:GUID="0d260c4a-df8e-4fa7-b29d-b80928182636" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="3206a728-3bdf-404f-bd51-c487574c634d" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Plätze/ Höfe</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="1a9f80a0-1ab1-4a52-9742-a79af4237878"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="e937d6a8-efd1-418f-9c05-0c22ba6c8776">
-                <Property dt:GUID="655e0f07-27d8-4620-9dcf-93e343f254a3" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="f52cbb5a-5e0c-4dfa-aa01-215e0d9cce9f">
+                <Property dt:GUID="670637b8-1142-4e85-a07a-e3ef1dcea085" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -82,16 +86,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="e1296079-a915-4113-b767-5a4718503432"/>
-            <GeometricalInformation dt:GUID="3b77165e-42a4-4973-bff1-a739749aec69" placeholder="true"/>
+            <Documentation dt:GUID="dfddb653-7255-4057-a3b4-3b58b7ad2e4c"/>
+            <GeometricalInformation dt:GUID="813e3d61-cb12-4ec7-886a-295d0c0cb410" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="ffd8d03b-c852-423c-9bf8-5df76eeb12eb" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="d2c91ff2-8df1-4628-8175-57b55beec189" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Stellplätze</dt:Name>
-            <ObjectType dt:GUID="ffd8d03b-c852-423c-9bf8-5df76eeb12eb" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="d2c91ff2-8df1-4628-8175-57b55beec189" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Stellplätze</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="5d0edfe5-9d7d-4d63-adcb-a3d54e21d445"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="e71bdd66-ce99-4071-af68-4491ca2ec471">
-                <Property dt:GUID="f7f547a0-b23c-43a0-9d7b-59898e3e6718" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="fd0e41b5-d126-4127-9924-9117c767447a">
+                <Property dt:GUID="8f98f1ad-be02-4ab1-833a-acbb8b11226f" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -103,16 +108,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="91e7d78c-d0b2-4791-a485-3f3091231014"/>
-            <GeometricalInformation dt:GUID="f018aba3-04e0-4dac-bb35-da3dd63f8759" placeholder="true"/>
+            <Documentation dt:GUID="f110d98d-b44e-492d-ac8c-f8cb5daf15a2"/>
+            <GeometricalInformation dt:GUID="735dd0f8-2935-4c08-9936-966197d5d86b" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="2cfa9489-5daa-49e3-b437-6a74d840e059" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="ac931514-5619-46d0-a3cd-dbdbdc8b3d16" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Sportplatzflächen</dt:Name>
-            <ObjectType dt:GUID="2cfa9489-5daa-49e3-b437-6a74d840e059" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="ac931514-5619-46d0-a3cd-dbdbdc8b3d16" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Sportplatzflächen</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="69fff25d-96c4-4a04-b77a-a15a029c1cc3"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="0b0c86aa-a2fd-41c7-8404-0ca3b59cd11c">
-                <Property dt:GUID="bdce0e3d-99e1-481a-9f86-a40ea65af547" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="197c622b-3b4e-4446-addf-8de00d9e9e8b">
+                <Property dt:GUID="3f5aefdc-71aa-49a5-af55-e4d1dc92e6e5" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -124,16 +130,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="5b7a4433-f6a6-4e98-9bc9-40afbf447f0a"/>
-            <GeometricalInformation dt:GUID="86707c81-9ab6-41cd-a985-7b6f0d0a3c6c" placeholder="true"/>
+            <Documentation dt:GUID="91008864-e538-43a9-a860-67dd687faf54"/>
+            <GeometricalInformation dt:GUID="5f1cae00-828e-4db5-a949-000e31706755" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="13cd4a0f-5fdc-4fba-9e33-54e46fcb6cef" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="8ccd0cbc-a959-49da-b4b8-bde688526db0" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Spielplatzflächen</dt:Name>
-            <ObjectType dt:GUID="13cd4a0f-5fdc-4fba-9e33-54e46fcb6cef" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="8ccd0cbc-a959-49da-b4b8-bde688526db0" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Spielplatzflächen</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="4866e1ee-778f-44a2-b65d-b6ba5b1f6f73"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="633e3706-bd72-4133-b660-48d2960d5c91">
-                <Property dt:GUID="49cf16c8-46fd-4073-b4aa-4a69cc0d128d" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="adadd7db-0c15-4472-b850-7fed229953f9">
+                <Property dt:GUID="82d58762-82e8-40e5-b7b4-03f6d144fc19" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -145,16 +152,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="e5c72714-5fc4-4d77-9343-9e52209347c1"/>
-            <GeometricalInformation dt:GUID="3de8cad9-c579-405a-a54a-3ff6f885af5a" placeholder="true"/>
+            <Documentation dt:GUID="9bfca9f9-e2b3-4eed-83a6-e96ea69b39d8"/>
+            <GeometricalInformation dt:GUID="957cd84b-d81a-4d34-b3e6-f208582b9b9b" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="4d990b30-331c-4be3-ab61-bb1feb87a5e6" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="0d609db7-3e36-44a6-b1ed-d06dfdf9da69" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Spielplatzgeräte</dt:Name>
-            <ObjectType dt:GUID="4d990b30-331c-4be3-ab61-bb1feb87a5e6" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="0d609db7-3e36-44a6-b1ed-d06dfdf9da69" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Spielplatzgeräte</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="8031ed7c-a02a-4dc1-83d6-39e8f67d0fe5"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="58f7f046-5c6c-471c-b4e0-952868e265ec">
-                <Property dt:GUID="466ebeb5-1560-4e6a-9bbb-1cc4d89a6ff1" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="c1a109c8-9d61-46a3-b254-dc40b8a55919">
+                <Property dt:GUID="40b4e6d8-9f92-4c24-b400-f35a6bb65144" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -166,16 +174,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="012c06bb-bc49-4542-896d-95c61466bd7b"/>
-            <GeometricalInformation dt:GUID="40472b32-f302-4683-8f5f-92243e667fa3" placeholder="true"/>
+            <Documentation dt:GUID="3d88a9dc-27eb-4125-b6c7-3f8f7ecddf76"/>
+            <GeometricalInformation dt:GUID="951c7426-b3d4-4f8c-8059-d73767b1d579" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="0650c362-a083-4839-ad61-92014b346280" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="0e94645a-be2c-4750-b3ca-aa21846272d8" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Gleisanlage</dt:Name>
-            <ObjectType dt:GUID="0650c362-a083-4839-ad61-92014b346280" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="0e94645a-be2c-4750-b3ca-aa21846272d8" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Gleisanlage</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="0cb5c14a-f284-4ec9-b159-b47b2d18ffb3"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="1eebdbb6-5635-4d3e-89ca-ad82c7342f22">
-                <Property dt:GUID="3e8dc9fa-8a81-4212-bec3-dc5657b534ca" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="3ee8cc5a-8957-486d-a5fb-3fcdbfade62e">
+                <Property dt:GUID="bd44cb8e-90d6-4903-a640-3d203a4f9c70" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -187,16 +196,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="d49a4ade-0586-415e-8adf-bc4453c505c7"/>
-            <GeometricalInformation dt:GUID="28d95500-dee1-4880-8f02-71815c210122" placeholder="true"/>
+            <Documentation dt:GUID="cad055d7-a99f-4e24-987d-25054156a745"/>
+            <GeometricalInformation dt:GUID="12934654-0fa0-4245-92fc-e31923b022df" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="c2e985f0-4337-45db-8d32-38f913c3366a" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="dfcdb955-17d5-4237-a89a-e71a6d6bb829" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Weiche</dt:Name>
-            <ObjectType dt:GUID="c2e985f0-4337-45db-8d32-38f913c3366a" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="dfcdb955-17d5-4237-a89a-e71a6d6bb829" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Weiche</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="455144ba-e217-4b30-93eb-0d5e4b646dc9"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="97f5661d-767e-437d-8348-dda4fa61a96d">
-                <Property dt:GUID="b5362a74-78c9-4187-85f3-9a7506026afb" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="149cbcde-779f-4b5a-ba68-a020ba527ec6">
+                <Property dt:GUID="76c37f05-6697-457e-b579-9ebdeae8f59b" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -208,16 +218,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="af1c6c5b-8efc-42a7-8c51-95382f806b18"/>
-            <GeometricalInformation dt:GUID="98a2ddfa-be7d-4b5f-8a09-18ca0555a853" placeholder="true"/>
+            <Documentation dt:GUID="d2070138-a803-4fa6-a17b-ad7cbf70f9cd"/>
+            <GeometricalInformation dt:GUID="bec0915b-1c5e-4b8d-8be2-10d9af56b9f4" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="b7514e56-5a22-4a1d-9387-8f20435d916b" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="b964dadc-5109-4896-ba48-1c77c60cf1ac" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Geländeflächen und Befestigte Flächen</dt:Name>
-            <ObjectType dt:GUID="b7514e56-5a22-4a1d-9387-8f20435d916b" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="b964dadc-5109-4896-ba48-1c77c60cf1ac" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Geländeflächen und Befestigte Flächen</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="c767fc48-02ae-4cf0-8b2a-a5b3ae20b730"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="1086f805-abd0-4ecc-8c0a-238c04f74a9f">
-                <Property dt:GUID="72b47355-fb7d-4ec3-a284-ec2bf8c889a1" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="4ba833d7-6a18-46e6-bdfe-0de4a7916694">
+                <Property dt:GUID="7136e084-6d69-487a-9543-771c25293bbe" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -229,16 +240,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="e7fd4df2-5dc0-4a50-acb4-1f9791d8d3ec"/>
-            <GeometricalInformation dt:GUID="9d2899db-5fa1-47a2-a4eb-b4a6db5891c4" placeholder="true"/>
+            <Documentation dt:GUID="65561b72-0949-4989-9147-3493e1fe53a6"/>
+            <GeometricalInformation dt:GUID="2d9cce0a-c2dd-4e22-adec-769d777f9940" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="4e9814ef-9b3b-41ad-9afc-ec8654bce4da" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="69aa0728-b544-4474-a7e9-23364e1148e4" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Einfriedungen</dt:Name>
-            <ObjectType dt:GUID="4e9814ef-9b3b-41ad-9afc-ec8654bce4da" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="69aa0728-b544-4474-a7e9-23364e1148e4" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Einfriedungen</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="5dc69c3e-e35a-412b-97fe-1aac166c874f"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="5497317a-9433-475b-ad40-98e9d5835ff7">
-                <Property dt:GUID="f62ba02e-b7b5-4580-82b9-e200bab92540" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="f0e923ca-2377-40f8-ac8e-d0f9b72bb7e9">
+                <Property dt:GUID="441602a5-1c80-40e7-a4c9-acb6d6cdd057" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -250,16 +262,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="9da1a3b0-0fba-4a0b-aead-e3332b54837a"/>
-            <GeometricalInformation dt:GUID="44942fca-b258-401e-b377-f7253e2a407d" placeholder="true"/>
+            <Documentation dt:GUID="739c8e0b-f77d-4250-9c9b-2b17d39ae6a7"/>
+            <GeometricalInformation dt:GUID="01c51cf8-f380-4851-be45-7eacc311cede" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="cd700811-4e00-4d84-9ce7-512c81c33b8e" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="87e07ce4-f080-4ae4-bdb9-4259af13754a" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Tür, Tor in Außenanlagen</dt:Name>
-            <ObjectType dt:GUID="cd700811-4e00-4d84-9ce7-512c81c33b8e" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="87e07ce4-f080-4ae4-bdb9-4259af13754a" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Tür, Tor in Außenanlagen</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="07e8c5ea-b957-4d06-8370-2b5cde03f975"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="a915704f-2650-4237-9031-6670dca9595f">
-                <Property dt:GUID="6751a9bc-93fc-48a8-a43f-40dd70004480" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="73d36d53-5f53-4cef-9dda-df7750a10f2d">
+                <Property dt:GUID="5934f9f7-5465-462e-a19f-41b65dbb6521" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -271,16 +284,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="a46068b7-8083-4029-9de8-0975c32790c9"/>
-            <GeometricalInformation dt:GUID="550e5b55-b117-4a53-8a25-1cd5372a55db" placeholder="true"/>
+            <Documentation dt:GUID="2c7b652f-7089-4248-b876-1d6e67384722"/>
+            <GeometricalInformation dt:GUID="9b516e16-c842-4252-8a8e-e7d48191fd4f" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="ebf5f589-af90-428d-81a7-a433c52a89b3" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="9f86e554-b8db-4e92-bc4d-f49ebc4aa921" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Talsperre, Schöpfwerk</dt:Name>
-            <ObjectType dt:GUID="ebf5f589-af90-428d-81a7-a433c52a89b3" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="9f86e554-b8db-4e92-bc4d-f49ebc4aa921" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Talsperre, Schöpfwerk</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="1043b92c-2fbe-45b1-9e8d-f4e1041b9807"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="65c81ec6-3d5e-47e0-956d-6626f0a16bc3">
-                <Property dt:GUID="fdc4142d-05c8-4085-9c90-590cb7cdafba" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="7b3ed620-98d0-4136-b95e-a4dffbc01e20">
+                <Property dt:GUID="b345df42-f52f-4245-8db6-0fb7f83e4c34" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -292,16 +306,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="4fb0875b-549b-4bf3-b9b2-b9022f14279a"/>
-            <GeometricalInformation dt:GUID="86509042-a814-4a17-ab74-0bcfd4beb91e" placeholder="true"/>
+            <Documentation dt:GUID="a2200e90-d7ac-48ca-a414-9d64de9b1bba"/>
+            <GeometricalInformation dt:GUID="8f23fc05-e1ac-44a3-87f2-1d149525eff2" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="af5fe3b7-e2c2-4a5b-ae87-c00e837c8491" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="855b0bf0-d838-483f-866e-ae8ecfd0ec48" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Schutzkonstruktionen</dt:Name>
-            <ObjectType dt:GUID="af5fe3b7-e2c2-4a5b-ae87-c00e837c8491" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="855b0bf0-d838-483f-866e-ae8ecfd0ec48" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Schutzkonstruktionen</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="78035b65-1f04-4a0a-adb3-0d4850bc7a57"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="46212855-3a04-4041-9f92-188bbff695ca">
-                <Property dt:GUID="d5a23a48-46dd-40c9-8a8f-ebc30a948de2" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="b699968c-6cb5-44a0-a88b-3ac67b48d832">
+                <Property dt:GUID="8085fc51-2bdd-4f14-aa12-35520c364387" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -313,16 +328,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="65de4593-49ef-4f23-addd-4928202cf9d2"/>
-            <GeometricalInformation dt:GUID="4adba698-95af-44e9-8a28-9050eab38008" placeholder="true"/>
+            <Documentation dt:GUID="d45d8525-2675-489b-8e3b-2143918d2aee"/>
+            <GeometricalInformation dt:GUID="266d1c43-2eb7-4ef0-a56e-7c90ba6fc9bb" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="4902a2db-384c-4172-97d9-a50547ba31d3" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="10f0b191-f578-42fc-bed8-2de1eacf2741" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Treppen/Rampen Wasserbau</dt:Name>
-            <ObjectType dt:GUID="4902a2db-384c-4172-97d9-a50547ba31d3" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="10f0b191-f578-42fc-bed8-2de1eacf2741" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Treppen/Rampen Wasserbau</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="618a59a4-131c-4665-957d-9ade8206c3be"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="b1738478-cb58-4bb3-bd71-cb9f54ac7c20">
-                <Property dt:GUID="3cff55b0-b0bf-4c96-b493-89f8116463f1" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="28725010-da52-4400-9881-6137e3e0c0e3">
+                <Property dt:GUID="036eee23-513b-4ad5-b907-9015062578a7" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -334,16 +350,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="bba5cffd-6715-4738-b180-fccfc158f1a2"/>
-            <GeometricalInformation dt:GUID="51be3ffe-d326-483c-9c3c-06f091582465" placeholder="true"/>
+            <Documentation dt:GUID="1b7933f2-9522-4403-8f10-865652e3c8fd"/>
+            <GeometricalInformation dt:GUID="969c07f2-f3de-4edc-9c54-553fc0fff6c9" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="f3b32c3f-5958-43d3-938f-17147dd9651d" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="ff62473f-ec4a-40d1-89f9-613013055233" dateOfCreation="2026-06-07T18:12:45.978922">
             <dt:Name language="de">Spezifikation für Stege/Brücken</dt:Name>
-            <ObjectType dt:GUID="f3b32c3f-5958-43d3-938f-17147dd9651d" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="ff62473f-ec4a-40d1-89f9-613013055233" dateOfCreation="2026-06-07T18:12:45.978922">
                 <dt:Name language="de">Stege/Brücken</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="5d2e7100-8ad7-4c8e-9e19-db74ac460931"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="5ae2a3ec-3b9b-4319-928f-ad1cd1f5a9ae">
-                <Property dt:GUID="356d2b5b-e2b3-4d0e-844a-f4e98adc87c9" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="5a1dd0b9-80f8-4143-a0b6-0f5cb5fb46a1">
+                <Property dt:GUID="d4688307-32c5-4f22-891c-599155bd2a2c" dateOfCreation="2026-06-07T18:12:45.978922">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -355,16 +372,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="64e431b6-256b-438e-a5af-f39a854dd0e9"/>
-            <GeometricalInformation dt:GUID="f759c932-4ea8-476e-953e-792a3448d43d" placeholder="true"/>
+            <Documentation dt:GUID="14dd0c0e-4d8e-45d6-9bdf-86062b18c1a6"/>
+            <GeometricalInformation dt:GUID="ab862868-4edb-4e68-96b9-a738bf7b483d" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="a6ed0128-56c4-4591-9697-ab0dcab32231" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="f57508b8-6b24-4848-8acd-c0237f22ea13" dateOfCreation="2026-06-07T18:12:45.979920">
             <dt:Name language="de">Spezifikation für Wasserbecken</dt:Name>
-            <ObjectType dt:GUID="a6ed0128-56c4-4591-9697-ab0dcab32231" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="f57508b8-6b24-4848-8acd-c0237f22ea13" dateOfCreation="2026-06-07T18:12:45.979920">
                 <dt:Name language="de">Wasserbecken</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="3a316d76-4bcf-43fa-964d-3d6e1b3fba53"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="e911ee56-d8d1-4bd2-b087-86cbd70c6b12">
-                <Property dt:GUID="68c570e6-ed1b-429f-b416-c5cd59be8395" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="753334b7-1407-480a-998b-490486dd1a92">
+                <Property dt:GUID="18623220-3270-462f-a4e9-289a9c3988a2" dateOfCreation="2026-06-07T18:12:45.979920">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -376,16 +394,17 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="b3937adc-6b88-4a9b-ae98-016c1f44a959"/>
-            <GeometricalInformation dt:GUID="2d10d6c6-2e10-4705-a4c1-bb213dbf9a2f" placeholder="true"/>
+            <Documentation dt:GUID="a8b00272-17d2-4368-ac9a-1a521097f761"/>
+            <GeometricalInformation dt:GUID="467f2a27-98d7-474a-ae3e-968c6c124bd4" placeholder="true"/>
         </SpecificationPerObjectType>
-        <SpecificationPerObjectType dt:GUID="164fc8ba-2813-4d31-b9d1-1026733f339a" dateOfCreation="2026-06-07T16:21:17.474147">
+        <SpecificationPerObjectType dt:GUID="575f16b1-d748-415b-91b5-7329757cd956" dateOfCreation="2026-06-07T18:12:45.979920">
             <dt:Name language="de">Spezifikation für Schilder</dt:Name>
-            <ObjectType dt:GUID="164fc8ba-2813-4d31-b9d1-1026733f339a" dateOfCreation="2026-06-07T16:21:17.474147">
+            <ObjectType dt:GUID="575f16b1-d748-415b-91b5-7329757cd956" dateOfCreation="2026-06-07T18:12:45.979920">
                 <dt:Name language="de">Schilder</dt:Name>
+                <dt:DictionaryRef dt:referenceURI="TODO: Fill out or delete dictionary reference" dt:GUID="55d567ca-99f2-4ea9-8ac4-4f9efe07a10b"/>
             </ObjectType>
-            <AlphanumericalInformation dt:GUID="f4915651-bc9e-48e5-99f2-7c7e26129e7f">
-                <Property dt:GUID="ec2e23ab-892b-4146-82a7-804468455fef" dateOfCreation="2026-06-07T16:21:17.474147">
+            <AlphanumericalInformation dt:GUID="f03c1a85-b8a6-4d3a-8d9d-dfe4207cfd86">
+                <Property dt:GUID="b0ead5e7-8dda-4873-b3e4-06849290c857" dateOfCreation="2026-06-07T18:12:45.979920">
                     <dt:Name language="de">Kostengruppe</dt:Name>
                     <dt:Description language="de">Klassifizierung nach DIN 276 (4. Ebene)</dt:Description>
                     <dt:DataType name="STRING">
@@ -397,8 +416,8 @@
                     </dt:DataType>
                 </Property>
             </AlphanumericalInformation>
-            <Documentation dt:GUID="3efe7a59-fc23-456d-8fd2-fb084c09ffe2"/>
-            <GeometricalInformation dt:GUID="cb01ee2b-9a96-44f4-a2d4-74ccfa5cbe1b" placeholder="true"/>
+            <Documentation dt:GUID="2a7ba616-5eae-4094-9c21-d868c9533ca7"/>
+            <GeometricalInformation dt:GUID="8a582d7f-1c3d-43b1-9676-77de80a0e245" placeholder="true"/>
         </SpecificationPerObjectType>
         <GeoReferencing/>
     </Specification>

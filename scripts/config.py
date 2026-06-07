@@ -18,7 +18,7 @@ BASE_DIR = Path(__file__).parent.parent
 SPECIFICATION_XML_DIR = BASE_DIR / "generated_xmls" / "specification_xmls"
 UNITS_XML_DIR = BASE_DIR / "generated_xmls" / "unit_xmls"
 
-OUTPUT_XML = SPECIFICATION_XML_DIR / "08_06_arc_la_lph3.xml"
+OUTPUT_XML = SPECIFICATION_XML_DIR / "08_06_arc_lph3.xml"
 UNITS_OUTPUT_XML = UNITS_XML_DIR / "units_quantities_dimensions.xml"
 
 
@@ -34,14 +34,14 @@ UNITS_LANGUAGE = "en"
 
 FILTER_LPH = {"2", "3"}
 
-# FILTER_FACHMODELL = {
-#    s.upper() for s in[
-#    "ARC", "ARC/LA", "ARC/TA-SAN",
-#    "ARC/TWP", "ARC/TWP/ HLSK",
-#    "Architekt/BImA/TGAPlaner/\nErrichterfirma",
-#    "alles"
-#    ]
-# }
+FILTER_FACHMODELL = {
+   s.upper() for s in[
+   "ARC", "ARC/LA", "ARC/TA-SAN",
+   "ARC/TWP", "ARC/TWP/ HLSK",
+   "Architekt/BImA/TGAPlaner/\nErrichterfirma",
+   "alles"
+   ]
+}
 
 # FILTER_FACHMODELL = {
 #     s.upper() for s in[
@@ -50,12 +50,12 @@ FILTER_LPH = {"2", "3"}
 #     ]
 # }
 
-FILTER_FACHMODELL = {
-    s.upper() for s in[
-    "ARC/LA",
-    "ALLE"
-    ]
-}
+# FILTER_FACHMODELL = {
+#     s.upper() for s in[
+#     "ARC/LA",
+#     "ALLE"
+#     ]
+# }
 
 #when both false, all properties are included regardless of BIMA and BW requirements
 INCLUDE_BIMA = False
@@ -68,6 +68,8 @@ INCLUDE_BW = False
 OBJECT_COL = "DE"
 PROPERTY_COL = "Bezeichnung (deutsch)"
 DESCRIPTION_COL = "Beschreibung"
+PROPERTY_SET_COL = "PropertySet/ QuantitieSet"  
+PROPERTY_SET_ND = {"n.d", "n.d."}
 DATATYPE_COL = "Wertetyp"
 VALUE_TABLE_COL = "Wertetabelle"
 UNIT_COL = "Einheit"

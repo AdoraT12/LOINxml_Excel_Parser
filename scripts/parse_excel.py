@@ -1,7 +1,7 @@
 import pandas as pd
 
 from scripts.units import create_placeholder_unit
-from scripts.config import EXCEL_FILE, SHEET_NAME, HEADER_ROW, OBJECT_COL, PROPERTY_COL, LPH_COL, FACHMODELL_COL, DATATYPE_COL, DESCRIPTION_COL, VALUE_TABLE_COL, UNIT_COL, FILTER_FACHMODELL
+from scripts.config import EXCEL_FILE, PROPERTY_SET_COL, PROPERTY_SET_ND, SHEET_NAME, HEADER_ROW, OBJECT_COL, PROPERTY_COL, LPH_COL, FACHMODELL_COL, DATATYPE_COL, DESCRIPTION_COL, VALUE_TABLE_COL, UNIT_COL, FILTER_FACHMODELL
 from scripts.helpers import match_lph, match_requirements, normalize_datatype
 from scripts.classes import ObjectType, Property
 
@@ -158,12 +158,22 @@ def parse_excel():
         # PROPERTY
         # ----------------------------------------------------
 
+        property_set_raw = row.get(PROPERTY_SET_COL)
+
+        property_set = (
+            None
+            if pd.isna(property_set_raw)
+            or str(property_set_raw).strip().lower() in {s.lower() for s in PROPERTY_SET_ND}
+            else str(property_set_raw).strip()
+        )
+
         prop = Property(
             name=prop_name,
             description=description,
             datatype=datatype,
             possible_values=possible_values,
-            unit=unit_obj
+            unit=unit_obj,
+            property_set=property_set
         )
 
         current_object.properties.append(prop)
