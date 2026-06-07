@@ -2,7 +2,7 @@ from lxml import etree
 
 from scripts.utils import new_guid, now
 from scripts.helpers import create_multilang
-from scripts.config import LOIN, NSMAP, DT, USE_EXTERNAL_UNITS_LIBRARY, UNITS_LIBRARY_URI, LANGUAGE
+from scripts.config import LOIN, NSMAP, DT, USE_EXTERNAL_UNITS_LIBRARY, UNITS_OUTPUT_XML, LANGUAGE
 
 
 def build_loin_xml(objects, object_order):
@@ -85,7 +85,7 @@ def build_loin_xml(objects, object_order):
                 if USE_EXTERNAL_UNITS_LIBRARY:
                     unit_ref.set(
                         DT + "referenceURI",
-                        UNITS_LIBRARY_URI
+                        f"file:{UNITS_OUTPUT_XML.name}"
                     )
 
         doc = etree.SubElement(spec_obj, "Documentation")

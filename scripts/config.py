@@ -13,11 +13,10 @@ HEADER_ROW = 4
 # OUTPUT
 # ============================================================
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-GENERATED_XML_DIR = BASE_DIR / "generated_xmls"
+BASE_DIR = Path(__file__).parent.parent  # adjust levels to reach your project root
 
-SPECIFICATION_XML_DIR = GENERATED_XML_DIR / "specification_xmls"
-UNITS_XML_DIR = GENERATED_XML_DIR / "unit_xmls"
+SPECIFICATION_XML_DIR = BASE_DIR / "generated_xmls" / "specification_xmls"
+UNITS_XML_DIR = BASE_DIR / "generated_xmls" / "unit_xmls"
 
 OUTPUT_XML = SPECIFICATION_XML_DIR / "08_06_arc_lph3.xml"
 UNITS_OUTPUT_XML = UNITS_XML_DIR / "units_quantities_dimensions.xml"
