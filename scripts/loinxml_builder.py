@@ -93,7 +93,7 @@ def build_loin_xml(objects, object_order):
 
         geo = etree.SubElement(spec_obj, "GeometricalInformation")
         geo.set("GUID", new_guid())
-        geo.set("placeholder", "false")
+        geo.set("placeholder", "true")
 
     geo_ref = etree.SubElement(spec, "GeoReferencing")
     geo_ref.set(DT + "GUID", new_guid())
