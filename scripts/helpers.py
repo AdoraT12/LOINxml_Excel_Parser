@@ -1,6 +1,6 @@
 import pandas as pd
 from lxml import etree
-from scripts.config import FILTER_LPH, INCLUDE_BIMA, INCLUDE_BW, BIMA_COL, BW_COL, LANGUAGE 
+from scripts.config import FILTER_LPH, INCLUDE_BIMA, INCLUDE_BW, BIMA_COL, BW_COL, LANGUAGE, UNITS_LANGUAGE 
 
 def create_multilang(parent, tag, text, lang=None):
 
@@ -12,6 +12,14 @@ def create_multilang(parent, tag, text, lang=None):
     el.set("language", lang)
 
     return el
+
+def create_unit_lang(parent, tag, text):
+    return create_multilang(
+        parent,
+        tag,
+        text,
+        lang=UNITS_LANGUAGE
+    )
 
 # ============================================================
 # FILTERING

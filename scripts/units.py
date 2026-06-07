@@ -1,4 +1,5 @@
 from scripts.classes import Dimension, QuantityKind, Unit
+from scripts.utils import stable_guid
 
 DIMENSIONS = {
 
@@ -14,7 +15,8 @@ DIMENSIONS = {
             "ThermodynamicTemperature": 0,
             "AmountOfSubstance": 0,
             "LuminousIntensity": 0
-        }
+        },
+        guid=stable_guid("Dimension:Length")
     ),
 
     "Area": Dimension(
@@ -29,7 +31,8 @@ DIMENSIONS = {
             "ThermodynamicTemperature": 0,
             "AmountOfSubstance": 0,
             "LuminousIntensity": 0
-        }
+        },
+        guid=stable_guid("Dimension:Area")
     ),
 
     "Volume": Dimension(
@@ -44,7 +47,8 @@ DIMENSIONS = {
             "ThermodynamicTemperature": 0,
             "AmountOfSubstance": 0,
             "LuminousIntensity": 0
-        }
+        },
+        guid=stable_guid("Dimension:Volume")
     )
 }
 
@@ -54,21 +58,24 @@ QUANTITY_KINDS = {
         name="Length",
         definition="The distance between two points in space",
         reference_uri="http://qudt.org/vocab/quantitykind/Length",
-        dimension=DIMENSIONS["Length"]
+        dimension=DIMENSIONS["Length"],
+        guid=stable_guid("QuantityKind:Length")
     ),
 
     "Area": QuantityKind(
         name="Area",
         definition="The extent of a surface",
         reference_uri="http://qudt.org/vocab/quantitykind/Area",
-        dimension=DIMENSIONS["Area"]
+        dimension=DIMENSIONS["Area"],
+        guid=stable_guid("QuantityKind:Area")
     ),
 
     "Volume": QuantityKind(
         name="Volume",
         definition="The amount of three-dimensional space",
         reference_uri="http://qudt.org/vocab/quantitykind/Volume",
-        dimension=DIMENSIONS["Volume"]
+        dimension=DIMENSIONS["Volume"],
+        guid=stable_guid("QuantityKind:Volume")
     )
 }
 
@@ -79,7 +86,18 @@ UNIT_LIBRARY = {
         definition="SI base unit of length",
         symbol="m",
         reference_uri="http://qudt.org/vocab/unit/M",
-        quantity_kind=QUANTITY_KINDS["Length"]
+        quantity_kind=QUANTITY_KINDS["Length"],
+        guid=stable_guid("Unit:m")
+    ),
+
+    "cm": Unit(
+        name="centimeter",
+        definition="One hundredth of a meter",
+        symbol="cm",
+        reference_uri="http://qudt.org/vocab/unit/CentiM",
+        quantity_kind=QUANTITY_KINDS["Length"],
+        coefficient="1/100",
+        guid=stable_guid("Unit:cm")
     ),
 
     "mm": Unit(
@@ -88,7 +106,8 @@ UNIT_LIBRARY = {
         symbol="mm",
         reference_uri="http://qudt.org/vocab/unit/MilliM",
         quantity_kind=QUANTITY_KINDS["Length"],
-        coefficient="1/1000"
+        coefficient="1/1000",
+        guid=stable_guid("Unit:mm")
     ),
 
     "m²": Unit(
@@ -96,7 +115,8 @@ UNIT_LIBRARY = {
         definition="SI unit of area",
         symbol="m²",
         reference_uri="http://qudt.org/vocab/unit/M2",
-        quantity_kind=QUANTITY_KINDS["Area"]
+        quantity_kind=QUANTITY_KINDS["Area"],
+        guid=stable_guid("Unit:m2")
     ),
 
     "m³": Unit(
@@ -104,7 +124,8 @@ UNIT_LIBRARY = {
         definition="SI unit of volume",
         symbol="m³",
         reference_uri="http://qudt.org/vocab/unit/M3",
-        quantity_kind=QUANTITY_KINDS["Volume"]
+        quantity_kind=QUANTITY_KINDS["Volume"],
+        guid=stable_guid("Unit:m3")
     )
 }
 
@@ -130,7 +151,8 @@ def create_placeholder_unit(unit_name):
             "ThermodynamicTemperature": 0,
             "AmountOfSubstance": 0,
             "LuminousIntensity": 0
-        }
+        },
+        guid=stable_guid(f"Dimension:{unit_name}")
     )
 
     # --------------------------------------------
@@ -141,7 +163,8 @@ def create_placeholder_unit(unit_name):
         name=f"{unit_name}",
         definition="TODO: PLACEHOLDER DEFINITION",
         reference_uri="TODO: PLACEHOLDER URI",
-        dimension=dim
+        dimension=dim,
+        guid=stable_guid(f"QuantityKind:{unit_name}")
     )
 
     # --------------------------------------------
@@ -153,7 +176,8 @@ def create_placeholder_unit(unit_name):
         definition="TODO: PLACEHOLDER DEFINITION",
         symbol=unit_name,
         reference_uri="TODO: PLACEHOLDER URI",
-        quantity_kind=qk
+        quantity_kind=qk,
+        guid=stable_guid(f"Unit:{unit_name}")
     )
 
     UNIT_LIBRARY[unit_name] = unit

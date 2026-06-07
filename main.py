@@ -3,7 +3,7 @@ from lxml import etree
 from scripts.config import OUTPUT_XML, UNITS_OUTPUT_XML, SPECIFICATION_XML_DIR, UNITS_XML_DIR
 from scripts.parse_excel import parse_excel
 from scripts.loinxml_builder import build_loin_xml
-from scripts.units_library_builder import build_units_library
+from scripts.units_library_updater import update_units_library
 
 objects, object_order, global_units = parse_excel()
 
@@ -16,7 +16,7 @@ root = build_loin_xml(
     object_order
 )
 
-lib_root = build_units_library(
+lib_root = update_units_library(
     global_units
 )
 

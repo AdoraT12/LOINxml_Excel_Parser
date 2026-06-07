@@ -19,37 +19,39 @@ GENERATED_XML_DIR = BASE_DIR / "generated_xmls"
 SPECIFICATION_XML_DIR = GENERATED_XML_DIR / "specification_xmls"
 UNITS_XML_DIR = GENERATED_XML_DIR / "unit_xmls"
 
-OUTPUT_XML = SPECIFICATION_XML_DIR / "07_06_test.xml"
-UNITS_OUTPUT_XML = UNITS_XML_DIR / "07_06_units_quantities_dimensions_test.xml"
+OUTPUT_XML = SPECIFICATION_XML_DIR / "08_06_arc_lph3.xml"
+UNITS_OUTPUT_XML = UNITS_XML_DIR / "units_quantities_dimensions.xml"
 
 
 USE_EXTERNAL_UNITS_LIBRARY = True # Set to True to save units ina spearate file to use as an external units library, False to include units in the same XML
 UNITS_LIBRARY_URI = UNITS_OUTPUT_XML.resolve().as_uri()
 
 LANGUAGE = "de"
+UNITS_LANGUAGE = "en"
 
 # ============================================================
 # FILTERS
 # ============================================================
 
-FILTER_LPH = {"3"}
-
-#FILTER_FACHMODELL = {
-#    s.upper() for s in[
-#    "ARC", "ARC/LA", "ARC/TA-SAN",
-#    "ARC/TWP", "ARC/TWP/HLSK",
-#    "ARCHITEKT/BIMA/TGAPLANER/ERRICHTERFIRMA",
-#    "ALLE"
-#    ]
-#}
+FILTER_LPH = {"2", "3"}
 
 FILTER_FACHMODELL = {
-    s.upper() for s in[
-    "ARC/TWP", "ARC/TWP/HLSK",
-    "ALLE"
-    ]
+   s.upper() for s in[
+   "ARC", "ARC/LA", "ARC/TA-SAN",
+   "ARC/TWP", "ARC/TWP/ HLSK",
+   "Architekt/BImA/TGAPlaner/\nErrichterfirma",
+   "alles"
+   ]
 }
 
+# FILTER_FACHMODELL = {
+#     s.upper() for s in[
+#     "ARC/TWP", "ARC/TWP/HLSK",
+#     "ALLE"
+#     ]
+# }
+
+#when both false, all properties are included regardless of BIMA and BW requirements
 INCLUDE_BIMA = False
 INCLUDE_BW = False
 

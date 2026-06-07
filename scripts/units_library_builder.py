@@ -1,7 +1,7 @@
 from lxml import etree
 from scripts.utils import new_guid, now
-from scripts.config import DT, NSMAP, LANGUAGE
-from scripts.helpers import create_multilang
+from scripts.config import DT, NSMAP, UNITS_LANGUAGE
+from scripts.helpers import create_unit_lang
 
 
 def build_units_library(global_units):
@@ -17,11 +17,10 @@ def build_units_library(global_units):
 
     lib_root.set(DT + "GUID", new_guid())
 
-    create_multilang(
+    create_unit_lang(
         lib_root,
         DT + "Name",
-        "Units Quantities Dimensions Library",
-        lang=LANGUAGE
+        "Units Quantities Dimensions Library"
     )
 
     # ============================================================
@@ -44,8 +43,8 @@ def build_units_library(global_units):
         qk_el.set(DT + "GUID", qk.guid)
         qk_el.set("dateOfCreation", now())
 
-        create_multilang(qk_el, DT + "Name", qk.name)
-        create_multilang(qk_el, DT + "Definition", qk.definition)
+        create_unit_lang(qk_el, DT + "Name", qk.name)
+        create_unit_lang(qk_el, DT + "Definition", qk.definition)
 
         ref = etree.SubElement(qk_el, DT + "ReferenceDocumentRef")
         ref.set(DT + "referenceURI", qk.reference_uri)
@@ -73,8 +72,8 @@ def build_units_library(global_units):
         dim_el.set(DT + "GUID", dim.guid)
         dim_el.set("dateOfCreation", now())
 
-        create_multilang(dim_el, DT + "Name", dim.name)
-        create_multilang(dim_el, DT + "Definition", dim.definition)
+        create_unit_lang(dim_el, DT + "Name", dim.name)
+        create_unit_lang(dim_el, DT + "Definition", dim.definition)
 
         ref = etree.SubElement(dim_el, DT + "ReferenceDocumentRef")
         ref.set(DT + "referenceURI", dim.reference_uri)
@@ -97,9 +96,9 @@ def build_units_library(global_units):
         unit_el.set(DT + "GUID", unit.guid)
         unit_el.set("dateOfCreation", now())
 
-        create_multilang(unit_el, DT + "Name", unit.name)
-        create_multilang(unit_el, DT + "Definition", unit.definition)
-        create_multilang(unit_el, DT + "Symbol", unit.symbol)
+        create_unit_lang(unit_el, DT + "Name", unit.name)
+        create_unit_lang(unit_el, DT + "Definition", unit.definition)
+        create_unit_lang(unit_el, DT + "Symbol", unit.symbol)
 
         ref = etree.SubElement(unit_el, DT + "ReferenceDocumentRef")
         ref.set(DT + "referenceURI", unit.reference_uri)

@@ -26,6 +26,22 @@ def parse_excel():
         .str.strip()
     )
 
+    print("\n=== EXCEL COLUMNS ===")
+    for col in df.columns:
+        print(f"- {col}")
+    print("=====================\n")
+
+    print("\n=== FACHMODELL VALUES ===")
+
+    for value in sorted(
+        df[FACHMODELL_COL]
+        .dropna()
+        .astype(str)
+        .str.strip()
+        .unique()
+    ):
+        print(repr(value))
+
     objects = {}
     object_order = []
     global_units = {}

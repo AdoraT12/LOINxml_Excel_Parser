@@ -1,85 +1,85 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<dt:Library xmlns:loin="https://iso.org/2024/LOIN" xmlns:dt="https://standards.iso.org/iso/23387/ed-2/en/" dt:GUID="c454c924-c477-4266-822f-a8f2bbef0686">
+<dt:Library xmlns:loin="https://iso.org/2024/LOIN" xmlns:dt="https://standards.iso.org/iso/23387/ed-2/en/" dt:GUID="29ba27c3-733d-4a8a-89fa-82b703b3dc57">
     <dt:Name language="en">Units Quantities Dimensions Library</dt:Name>
-    <QuantityKind dt:GUID="f8da97d4-3ce6-54f9-9ae7-8d714232685c" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="f8da97d4-3ce6-54f9-9ae7-8d714232685c" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">Area</dt:Name>
         <dt:Definition language="en">The extent of a surface</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/quantitykind/Area"/>
         <dt:DimensionRef dt:GUID="e25858bd-c1b7-5b6a-bfc0-978a3718c8d1"/>
     </QuantityKind>
-    <QuantityKind dt:GUID="74d8d7e4-d283-5f2f-b708-95166079ad45" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="74d8d7e4-d283-5f2f-b708-95166079ad45" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">GFZ</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
         <dt:DimensionRef dt:GUID="8665d098-a535-54af-ac26-57516b994827"/>
     </QuantityKind>
-    <QuantityKind dt:GUID="28a719bf-2404-5912-9aee-66e2ee6393a9" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="28a719bf-2404-5912-9aee-66e2ee6393a9" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">Length</dt:Name>
         <dt:Definition language="en">The distance between two points in space</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/quantitykind/Length"/>
         <dt:DimensionRef dt:GUID="958c7b23-998a-578d-9814-187bbe9cb9ff"/>
     </QuantityKind>
-    <QuantityKind dt:GUID="68b55e2e-2795-5d7d-916c-3f3b70e11dfb" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="68b55e2e-2795-5d7d-916c-3f3b70e11dfb" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">JJJJ</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
         <dt:DimensionRef dt:GUID="49b9bc39-ce1a-5dc0-b2bd-24c01f4b6190"/>
     </QuantityKind>
-    <QuantityKind dt:GUID="ae14321d-4950-544f-829e-22bdbf1a8587" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="ae14321d-4950-544f-829e-22bdbf1a8587" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">Volume</dt:Name>
         <dt:Definition language="en">The amount of three-dimensional space</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/quantitykind/Volume"/>
         <dt:DimensionRef dt:GUID="8851e4fe-a75b-5126-8cc9-199324c94249"/>
     </QuantityKind>
-    <QuantityKind dt:GUID="15bf7ad0-65a6-5013-9577-e871e2d3dc00" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="15bf7ad0-65a6-5013-9577-e871e2d3dc00" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">kN/m²</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
         <dt:DimensionRef dt:GUID="1873f3a4-9a74-503e-9986-a21d5b8302f3"/>
     </QuantityKind>
-    <QuantityKind dt:GUID="89a3a741-ccee-59a0-9049-1a3a130de85a" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="89a3a741-ccee-59a0-9049-1a3a130de85a" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">Personen</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
         <dt:DimensionRef dt:GUID="4365c90e-6711-5440-8281-448030e4a218"/>
     </QuantityKind>
-    <QuantityKind dt:GUID="ccbf6dfe-8886-5614-949a-dfda7fb44ee2" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="ccbf6dfe-8886-5614-949a-dfda7fb44ee2" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">dB</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
         <dt:DimensionRef dt:GUID="8b80da28-0dce-58c8-9bad-56d1b7b94f95"/>
     </QuantityKind>
-    <QuantityKind dt:GUID="476ff688-ec4c-5713-afd2-ae513c85fcd0" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="476ff688-ec4c-5713-afd2-ae513c85fcd0" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">W/(m²·K)</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
         <dt:DimensionRef dt:GUID="7ba51842-1171-54fc-8154-3a5fa0cf1c28"/>
     </QuantityKind>
-    <QuantityKind dt:GUID="3d173535-ee91-50be-9604-ae0e6f8fdd40" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="3d173535-ee91-50be-9604-ae0e6f8fdd40" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">°</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
         <dt:DimensionRef dt:GUID="ffefcc02-b85e-5586-934e-6cdabc7f7507"/>
     </QuantityKind>
-    <QuantityKind dt:GUID="5acd3979-901c-54b7-a23c-26a8bc570248" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="5acd3979-901c-54b7-a23c-26a8bc570248" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">Stück</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
         <dt:DimensionRef dt:GUID="6a5ed150-8f4a-544b-aff6-9b25defc724a"/>
     </QuantityKind>
-    <QuantityKind dt:GUID="31279f70-997f-55d1-a78d-68964f074876" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="31279f70-997f-55d1-a78d-68964f074876" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">Anzahl</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
         <dt:DimensionRef dt:GUID="515d9932-6bc7-5dd6-83cc-d257c804e6c8"/>
     </QuantityKind>
-    <QuantityKind dt:GUID="9f4f27aa-3436-5423-ba22-cdea9600cd22" dateOfCreation="2026-06-07T15:28:56.585758">
+    <QuantityKind dt:GUID="9f4f27aa-3436-5423-ba22-cdea9600cd22" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">%</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
         <dt:DimensionRef dt:GUID="20bf1dd6-382e-5b57-9497-4e9544baa354"/>
     </QuantityKind>
-    <Dimension dt:GUID="e25858bd-c1b7-5b6a-bfc0-978a3718c8d1" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="e25858bd-c1b7-5b6a-bfc0-978a3718c8d1" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">Area</dt:Name>
         <dt:Definition language="en">The dimension of area (L²)</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T0D0"/>
@@ -91,7 +91,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Dimension dt:GUID="8665d098-a535-54af-ac26-57516b994827" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="8665d098-a535-54af-ac26-57516b994827" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">GFZ_Dimension</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
@@ -103,7 +103,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Dimension dt:GUID="958c7b23-998a-578d-9814-187bbe9cb9ff" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="958c7b23-998a-578d-9814-187bbe9cb9ff" dateOfCreation="2026-06-07T15:16:51.997081">
         <dt:Name language="en">Length</dt:Name>
         <dt:Definition language="en">The dimension of length (L)</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T0D0"/>
@@ -115,7 +115,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Dimension dt:GUID="49b9bc39-ce1a-5dc0-b2bd-24c01f4b6190" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="49b9bc39-ce1a-5dc0-b2bd-24c01f4b6190" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">JJJJ_Dimension</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
@@ -127,7 +127,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Dimension dt:GUID="8851e4fe-a75b-5126-8cc9-199324c94249" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="8851e4fe-a75b-5126-8cc9-199324c94249" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">Volume</dt:Name>
         <dt:Definition language="en">The dimension of volume (L³)</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="http://qudt.org/vocab/dimensionvector/A0E0L3I0M0H0T0D0"/>
@@ -139,7 +139,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Dimension dt:GUID="1873f3a4-9a74-503e-9986-a21d5b8302f3" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="1873f3a4-9a74-503e-9986-a21d5b8302f3" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">kN/m²_Dimension</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
@@ -151,7 +151,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Dimension dt:GUID="4365c90e-6711-5440-8281-448030e4a218" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="4365c90e-6711-5440-8281-448030e4a218" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">Personen_Dimension</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
@@ -163,7 +163,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Dimension dt:GUID="8b80da28-0dce-58c8-9bad-56d1b7b94f95" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="8b80da28-0dce-58c8-9bad-56d1b7b94f95" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">dB_Dimension</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
@@ -175,7 +175,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Dimension dt:GUID="7ba51842-1171-54fc-8154-3a5fa0cf1c28" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="7ba51842-1171-54fc-8154-3a5fa0cf1c28" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">W/(m²·K)_Dimension</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
@@ -187,7 +187,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Dimension dt:GUID="ffefcc02-b85e-5586-934e-6cdabc7f7507" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="ffefcc02-b85e-5586-934e-6cdabc7f7507" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">°_Dimension</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
@@ -199,7 +199,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Dimension dt:GUID="6a5ed150-8f4a-544b-aff6-9b25defc724a" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="6a5ed150-8f4a-544b-aff6-9b25defc724a" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">Stück_Dimension</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
@@ -211,7 +211,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Dimension dt:GUID="515d9932-6bc7-5dd6-83cc-d257c804e6c8" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="515d9932-6bc7-5dd6-83cc-d257c804e6c8" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">Anzahl_Dimension</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
@@ -223,7 +223,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Dimension dt:GUID="20bf1dd6-382e-5b57-9497-4e9544baa354" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Dimension dt:GUID="20bf1dd6-382e-5b57-9497-4e9544baa354" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">%_Dimension</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:ReferenceDocumentRef dt:referenceURI="TODO: PLACEHOLDER URI"/>
@@ -235,7 +235,7 @@
         <dt:DimensionExponentForAmountOfSubstance>0</dt:DimensionExponentForAmountOfSubstance>
         <dt:DimensionExponentForLuminousIntensity>0</dt:DimensionExponentForLuminousIntensity>
     </Dimension>
-    <Unit dt:GUID="bc98bee6-320e-5e47-aae3-096884ba5e10" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="bc98bee6-320e-5e47-aae3-096884ba5e10" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">square meter</dt:Name>
         <dt:Definition language="en">SI unit of area</dt:Definition>
         <dt:Symbol language="en">m²</dt:Symbol>
@@ -246,7 +246,7 @@
         <dt:Coefficient>1/1</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="f3f9a2e1-2e62-5f1e-99f8-7c06c2a83a38" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="f3f9a2e1-2e62-5f1e-99f8-7c06c2a83a38" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">GFZ</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:Symbol language="en">GFZ</dt:Symbol>
@@ -257,7 +257,7 @@
         <dt:Coefficient>1/1</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="f413406d-bc62-51fb-81fd-784cee67f0fd" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="f413406d-bc62-51fb-81fd-784cee67f0fd" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">meter</dt:Name>
         <dt:Definition language="en">SI base unit of length</dt:Definition>
         <dt:Symbol language="en">m</dt:Symbol>
@@ -268,7 +268,7 @@
         <dt:Coefficient>1/1</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="c814a5e1-d434-51fc-accb-85cf7265e053" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="c814a5e1-d434-51fc-accb-85cf7265e053" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">JJJJ</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:Symbol language="en">JJJJ</dt:Symbol>
@@ -279,7 +279,7 @@
         <dt:Coefficient>1/1</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="dfef92ac-a214-56ea-bcd0-6e3b7a20b126" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="dfef92ac-a214-56ea-bcd0-6e3b7a20b126" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">cubic meter</dt:Name>
         <dt:Definition language="en">SI unit of volume</dt:Definition>
         <dt:Symbol language="en">m³</dt:Symbol>
@@ -290,7 +290,7 @@
         <dt:Coefficient>1/1</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="b829c987-d64f-508a-8eaf-f60215caab59" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="b829c987-d64f-508a-8eaf-f60215caab59" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">kN/m²</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:Symbol language="en">kN/m²</dt:Symbol>
@@ -301,7 +301,7 @@
         <dt:Coefficient>1/1</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="38c6c3fc-7af7-5ac9-a2e3-b936533813fe" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="38c6c3fc-7af7-5ac9-a2e3-b936533813fe" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">Personen</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:Symbol language="en">Personen</dt:Symbol>
@@ -312,7 +312,7 @@
         <dt:Coefficient>1/1</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="5975a063-cc18-5f09-bcfb-28140b9addae" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="5975a063-cc18-5f09-bcfb-28140b9addae" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">dB</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:Symbol language="en">dB</dt:Symbol>
@@ -323,7 +323,7 @@
         <dt:Coefficient>1/1</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="333ff972-4503-5a5c-8673-cb112dba331b" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="333ff972-4503-5a5c-8673-cb112dba331b" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">W/(m²·K)</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:Symbol language="en">W/(m²·K)</dt:Symbol>
@@ -334,7 +334,7 @@
         <dt:Coefficient>1/1</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="a1067f9a-27d4-5aae-84b8-a6091293aefd" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="a1067f9a-27d4-5aae-84b8-a6091293aefd" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">millimeter</dt:Name>
         <dt:Definition language="en">One thousandth of a meter</dt:Definition>
         <dt:Symbol language="en">mm</dt:Symbol>
@@ -345,7 +345,7 @@
         <dt:Coefficient>1/1000</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="bb394898-62db-54e1-b266-9bc5081260fd" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="bb394898-62db-54e1-b266-9bc5081260fd" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">°</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:Symbol language="en">°</dt:Symbol>
@@ -356,7 +356,7 @@
         <dt:Coefficient>1/1</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="40ac17cb-601b-52fa-a2b2-1d4dfbbc6285" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="40ac17cb-601b-52fa-a2b2-1d4dfbbc6285" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">Stück</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:Symbol language="en">Stück</dt:Symbol>
@@ -367,7 +367,7 @@
         <dt:Coefficient>1/1</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="450572d7-0597-5c60-a360-25c303ef76c3" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="450572d7-0597-5c60-a360-25c303ef76c3" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">Anzahl</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:Symbol language="en">Anzahl</dt:Symbol>
@@ -378,7 +378,7 @@
         <dt:Coefficient>1/1</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="79337909-a3ff-5092-89b4-a1393905d8f8" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="79337909-a3ff-5092-89b4-a1393905d8f8" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">centimeter</dt:Name>
         <dt:Definition language="en">One hundredth of a meter</dt:Definition>
         <dt:Symbol language="en">cm</dt:Symbol>
@@ -389,7 +389,7 @@
         <dt:Coefficient>1/100</dt:Coefficient>
         <dt:Offset>0/1</dt:Offset>
     </Unit>
-    <Unit dt:GUID="77a0d801-205a-5191-afa2-02baff7609ec" dateOfCreation="2026-06-07T15:28:56.585758">
+    <Unit dt:GUID="77a0d801-205a-5191-afa2-02baff7609ec" dateOfCreation="2026-06-07T15:16:52.012708">
         <dt:Name language="en">%</dt:Name>
         <dt:Definition language="en">TODO: PLACEHOLDER DEFINITION</dt:Definition>
         <dt:Symbol language="en">%</dt:Symbol>
